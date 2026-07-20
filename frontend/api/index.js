@@ -82,9 +82,17 @@ export default function handler(req, res) {
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
   if (req.method === 'OPTIONS') { res.status(204).end(); return; }
 
-  // Normalise: strip query string, ensure a single trailing slash.
-  let pathname = (req.url || '').split('?')[0];
-  if (!pathname.endsWith('/')) pathname += '/';
+  // All /api/* requests are rewritten (see vercel.json) to this function with
+  // the real path carried in ?path=. Fall back to the raw URL for local use.
+  let sub = req.query && req.query.path;
+  if (Array.isArray(sub)) sub = sub.join('/');
+  let pathname;
+  if (sub) {
+    pathname = '/api/' + sub;
+  } else {
+    pathname = (req.url || '').split('?')[0];
+  }
+  pathname = pathname.replace(/\/+$/, '') + '/';
 
   if (pathname === '/api/hazard/run/') {
     if (req.method === 'POST') { res.status(200).json({ status: 'success', message: 'Mock pipeline triggered' }); return; }
