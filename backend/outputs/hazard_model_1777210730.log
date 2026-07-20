@@ -1,0 +1,69 @@
+  [NLP] scikit-learn not installed — run: pip install scikit-learn
+
+======================================================================
+  STEP 1 — LOAD NODES + EDGES
+======================================================================
+  [DB] Connected
+  [DB] Loaded network_nodes: 12570 rows
+  [DB] Loaded network_edges: 14122 rows
+  Nodes: 12570  Edges: 14122
+
+======================================================================
+  STEP 2 — LOAD sf_index FROM POSTGIS
+======================================================================
+    public.roads: col=sf_index, n=27973, non-zero=27496
+    public.railways: col=sf_index, n=36, non-zero=36
+    public.ports: col=sf_index, n=3, non-zero=3
+    public.stations: col=sf_index, n=30, non-zero=30
+    sf_index loaded for 28042 assets
+    Access links inherited sf_index: 60/65
+    Nodes sf_index > 0: 12341/12570
+    Edges sf_index > 0: 13803/14122
+
+======================================================================
+  STEP 3 — CITY LOOKUP (CSV) + CLASSIFIER
+======================================================================
+  Loaded 573 cities from Pakistan_Centeroids.csv
+
+======================================================================
+  STEP 4 — RUN ALL FOUR HAZARDS
+======================================================================
+
+======================================================================
+  HAZARD 1 — FLOOD
+======================================================================
+
+  --- 1A: Static sf_index ---
+    Node sf_index range: [0.000, 0.981]
+
+  --- 1B: Live rainfall (cell aggregation at 0.01°) ---
+Traceback (most recent call last):
+  File "D:\university\semester 7\fyp 2\pipelines\hazard_model.py", line 1015, in run_flood
+    info(f"  {len(assets_4326)} asset-centroids \u2192 "
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+         f"{len(cell_centroids)} weather cells")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\university\semester 7\fyp 2\pipelines\hazard_model.py", line 158, in info
+    def info(t): print(f"  {t}")
+                 ~~~~~^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 26: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\university\semester 7\fyp 2\pipelines\hazard_model.py", line 1499, in <module>
+    n_flood,   e_flood   = run_flood(    nodes_base.copy(), edges_base.copy())
+                           ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\university\semester 7\fyp 2\pipelines\hazard_model.py", line 1103, in run_flood
+    info(f"[FLOOD FATAL] {e}\n{traceback.format_exc()}")
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\university\semester 7\fyp 2\pipelines\hazard_model.py", line 158, in info
+    def info(t): print(f"  {t}")
+                 ~~~~~^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 287: character maps to <undefined>

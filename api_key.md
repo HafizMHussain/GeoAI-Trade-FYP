@@ -1,0 +1,2 @@
+groq_api="YOUR_GROQ_API_KEY"
+gemini="YOUR_GEMINI_API_KEY"

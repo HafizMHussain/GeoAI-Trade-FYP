@@ -1,0 +1,2 @@
+num_nodes,num_edges,num_components,avg_degree,global_efficiency,avg_shortest_path_hr,avg_shortest_path_km,avg_clustering,density,assortativity,total_length_km,computed_at
+12570,14122,3722,2.2469,0.0082263,8.0934,822.6499,0.057527,0.00017877,0.031977,39783.23,2026-04-27 21:29:22

@@ -1,0 +1,232 @@
+{
+  "metadata": {
+    "timestamp": "20260427_163314",
+    "analysis_date": "2026-04-27 16:33:25",
+    "version": "risk_engine_v8.1_db_first"
+  },
+  "network_overview": {
+    "total_nodes": 12570,
+    "total_edges": 14122,
+    "ports": 3,
+    "dryports": 9,
+    "rail_stations": 30
+  },
+  "risk_distribution": {
+    "nodes": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 12570
+    },
+    "edges": {
+      "critical": 0,
+      "high": 0,
+      "medium": 20,
+      "low": 14102
+    }
+  },
+  "risk_statistics": {
+    "nodes": {
+      "mean_composite_risk": 0.0273,
+      "max_composite_risk": 0.2101,
+      "mean_network_risk": 0.0008,
+      "max_network_risk": 0.0159
+    },
+    "edges": {
+      "mean_composite_risk": 0.0709,
+      "max_composite_risk": 0.3706,
+      "mean_network_risk": 0.0069,
+      "max_network_risk": 0.3054
+    }
+  },
+  "chokepoints": {
+    "total_chokepoints": 0,
+    "critical_chokepoints": 0
+  },
+  "top_risks": {
+    "top_10_nodes": [
+      {
+        "asset_id": "road_13015",
+        "name": "Junction_13015",
+        "node_type": "road_intersection",
+        "composite_risk": 0.1219,
+        "network_criticality_risk": 0.0159,
+        "risk_tier": "LOW"
+      },
+      {
+        "asset_id": "road_15159",
+        "name": "Junction_15159",
+        "node_type": "road_intersection",
+        "composite_risk": 0.2101,
+        "network_criticality_risk": 0.0145,
+        "risk_tier": "LOW"
+      },
+      {
+        "asset_id": "road_15160",
+        "name": "Junction_15160",
+        "node_type": "road_intersection",
+        "composite_risk": 0.2017,
+        "network_criticality_risk": 0.014,
+        "risk_tier": "LOW"
+      },
+      {
+        "asset_id": "road_15154",
+        "name": "Junction_15154",
+        "node_type": "road_intersection",
+        "composite_risk": 0.1933,
+        "network_criticality_risk": 0.0134,
+        "risk_tier": "LOW"
+      },
+      {
+        "asset_id": "road_404",
+        "name": "Junction_404",
+        "node_type": "road_intersection",
+        "composite_risk": 0.1027,
+        "network_criticality_risk": 0.0133,
+        "risk_tier": "LOW"
+      },
+      {
+        "asset_id": "road_16659",
+        "name": "Junction_16659",
+        "node_type": "road_intersection",
+        "composite_risk": 0.192,
+        "network_criticality_risk": 0.0133,
+        "risk_tier": "LOW"
+      },
+      {
+        "asset_id": "road_7984",
+        "name": "Junction_7984",
+        "node_type": "road_intersection",
+        "composite_risk": 0.1833,
+        "network_criticality_risk": 0.0128,
+        "risk_tier": "LOW"
+      },
+      {
+        "asset_id": "road_15617",
+        "name": "Junction_15617",
+        "node_type": "road_intersection",
+        "composite_risk": 0.1234,
+        "network_criticality_risk": 0.0124,
+        "risk_tier": "LOW"
+      },
+      {
+        "asset_id": "road_1493",
+        "name": "Junction_1493",
+        "node_type": "road_intersection",
+        "composite_risk": 0.1211,
+        "network_criticality_risk": 0.012,
+        "risk_tier": "LOW"
+      },
+      {
+        "asset_id": "road_7997",
+        "name": "Junction_7997",
+        "node_type": "road_intersection",
+        "composite_risk": 0.166,
+        "network_criticality_risk": 0.0115,
+        "risk_tier": "LOW"
+      }
+    ],
+    "top_10_edges": [
+      {
+        "asset_id": "road_11246",
+        "from_node": "road_10820",
+        "to_node": "road_10822",
+        "mode": "road",
+        "road_type": "Trunk",
+        "composite_risk": 0.3269,
+        "network_criticality_risk": 0.3054,
+        "risk_tier": "MEDIUM"
+      },
+      {
+        "asset_id": "road_11241",
+        "from_node": "road_10817",
+        "to_node": "road_10820",
+        "mode": "road",
+        "road_type": "Trunk",
+        "composite_risk": 0.3163,
+        "network_criticality_risk": 0.2952,
+        "risk_tier": "LOW"
+      },
+      {
+        "asset_id": "road_11235",
+        "from_node": "road_10816",
+        "to_node": "road_10817",
+        "mode": "road",
+        "road_type": "Trunk",
+        "composite_risk": 0.2984,
+        "network_criticality_risk": 0.2784,
+        "risk_tier": "LOW"
+      },
+      {
+        "asset_id": "road_11644",
+        "from_node": "road_11040",
+        "to_node": "road_11041",
+        "mode": "road",
+        "road_type": "Trunk",
+        "composite_risk": 0.2768,
+        "network_criticality_risk": 0.2768,
+        "risk_tier": "LOW"
+      },
+      {
+        "asset_id": "road_1546",
+        "from_node": "road_470",
+        "to_node": "road_474",
+        "mode": "road",
+        "road_type": "Trunk",
+        "composite_risk": 0.3062,
+        "network_criticality_risk": 0.2714,
+        "risk_tier": "LOW"
+      },
+      {
+        "asset_id": "road_11645",
+        "from_node": "road_11038",
+        "to_node": "road_11040",
+        "mode": "road",
+        "road_type": "Trunk",
+        "composite_risk": 0.2697,
+        "network_criticality_risk": 0.2697,
+        "risk_tier": "LOW"
+      },
+      {
+        "asset_id": "road_351",
+        "from_node": "road_469",
+        "to_node": "road_470",
+        "mode": "road",
+        "road_type": "Trunk",
+        "composite_risk": 0.3028,
+        "network_criticality_risk": 0.2683,
+        "risk_tier": "LOW"
+      },
+      {
+        "asset_id": "road_23515",
+        "from_node": "road_2579",
+        "to_node": "road_17582",
+        "mode": "road",
+        "road_type": "Trunk",
+        "composite_risk": 0.3627,
+        "network_criticality_risk": 0.2647,
+        "risk_tier": "MEDIUM"
+      },
+      {
+        "asset_id": "road_353",
+        "from_node": "road_467",
+        "to_node": "road_473",
+        "mode": "road",
+        "road_type": "Trunk",
+        "composite_risk": 0.2927,
+        "network_criticality_risk": 0.2593,
+        "risk_tier": "LOW"
+      },
+      {
+        "asset_id": "road_23516",
+        "from_node": "road_2325",
+        "to_node": "road_17582",
+        "mode": "road",
+        "road_type": "Trunk",
+        "composite_risk": 0.3553,
+        "network_criticality_risk": 0.2593,
+        "risk_tier": "MEDIUM"
+      }
+    ]
+  }
+}

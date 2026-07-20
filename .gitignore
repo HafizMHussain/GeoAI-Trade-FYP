@@ -1,0 +1,79 @@
+# ----------------------
+# Python
+# ----------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Django / Flask stuff (if used)
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+
+# ----------------------
+# Node / Frontend
+# ----------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+pnpm-lock.yaml
+
+# Build folders
+build/
+dist/
+
+# ----------------------
+# Environment Variables
+# ----------------------
+.env
+.env.*
+api_key.md
+apikey_integration.md
+
+# ----------------------
+# IDE / Editor
+# ----------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ----------------------
+# OS files
+# ----------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------
+# Caches
+# ----------------------
+.mypy_cache/
+.pytest_cache/
+.cache/
+
+# ----------------------
+# Archives / backups
+# ----------------------
+_archive/
+*.zip
+*.tar.gz
+
+# ----------------------
+# Misc
+# ----------------------
+*.sqlite3
+*.db

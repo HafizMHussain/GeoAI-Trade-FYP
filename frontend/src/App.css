@@ -1,0 +1,212 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* ── Design tokens (CSS custom properties) ───────────────────────────────── */
+:root {
+  --color-critical: #E24B4A;
+  --color-high:     #EF9F27;
+  --color-medium:   #EAB308;
+  --color-low:      #22C55E;
+  --color-none:     #6B7280;
+
+  --color-port:     #D85A30;
+  --color-dryport:  #534AB7;
+  --color-station:  #1D9E75;
+
+  --panel-dark:     #0f172a;
+  --panel-mid:      #1e293b;
+  --panel-border:   rgba(255,255,255,0.08);
+
+  --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', 'Roboto', sans-serif;
+  --font-mono: 'SF Mono', 'Fira Code', 'Cascadia Code', monospace;
+}
+
+/* ── Global base ─────────────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #f8fafc;
+  color: #0f172a;
+}
+
+/* ── MapLibre popup override ─────────────────────────────────────────────── */
+.maplibregl-popup-content {
+  padding: 0 !important;
+  border-radius: 12px !important;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15) !important;
+  border: 1px solid #e2e8f0 !important;
+  overflow: hidden;
+}
+
+.maplibregl-popup-tip {
+  border-top-color: #ffffff !important;
+}
+
+.maplibregl-popup-close-button {
+  color: rgba(255,255,255,0.5) !important;
+  font-size: 18px !important;
+  padding: 6px 10px !important;
+}
+
+/* ── Scrollbars — thin, dark ─────────────────────────────────────────────── */
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(148,163,184,0.3); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(148,163,184,0.5); }
+
+/* ── Range inputs ────────────────────────────────────────────────────────── */
+input[type='range'] {
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* ── Topbar consistent height ────────────────────────────────────────────── */
+.topbar {
+  height: 52px;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  gap: 0.75rem;
+  flex-shrink: 0;
+  z-index: 40;
+}
+
+/* ── Shared panel styles ─────────────────────────────────────────────────── */
+.panel-dark {
+  background: var(--panel-dark);
+  border-right: 1px solid var(--panel-border);
+}
+
+.panel-card {
+  background: rgba(255,255,255,0.06);
+  border: 1px solid var(--panel-border);
+  border-radius: 12px;
+  padding: 12px;
+}
+
+/* ── Critical ticker animation ───────────────────────────────────────────── */
+@keyframes ticker-scroll {
+  0%   { transform: translateX(100vw); }
+  100% { transform: translateX(-100%); }
+}
+.ticker-run {
+  animation: ticker-scroll 50s linear infinite;
+  white-space: nowrap;
+  will-change: transform;
+}
+
+/* ── Pulse status dot ────────────────────────────────────────────────────── */
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+.pulse-dot { animation: pulse-dot 2s ease-in-out infinite; }
+
+/* ── Smooth transitions ──────────────────────────────────────────────────── */
+.panel-slide-enter { transform: translateX(0); transition: transform 0.25s ease; }
+.panel-slide-exit  { transform: translateX(-100%); }
+
+/* ── Route segment hover glow ────────────────────────────────────────────── */
+.route-tip {
+  position: absolute;
+  background: #1e293b;
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 11px;
+  color: #f1f5f9;
+  pointer-events: none;
+  z-index: 100;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+}
+
+/* ── Form elements dark theme ────────────────────────────────────────────── */
+.dark-select {
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.15);
+  color: #f1f5f9;
+  border-radius: 10px;
+  padding: 8px 12px;
+  font-size: 13px;
+  outline: none;
+  transition: border-color 0.15s, background 0.15s;
+  width: 100%;
+}
+.dark-select:focus {
+  border-color: rgba(255,255,255,0.4);
+  background: rgba(255,255,255,0.12);
+}
+.dark-select option { background: #1e293b; }
+
+/* ── Status badge ────────────────────────────────────────────────────────── */
+.status-CRITICAL { color: var(--color-critical); background: rgba(226,75,74,0.12); border-color: rgba(226,75,74,0.35); }
+.status-HIGH     { color: var(--color-high);     background: rgba(239,159,39,0.12); border-color: rgba(239,159,39,0.35); }
+.status-MEDIUM   { color: var(--color-medium);   background: rgba(234,179,8,0.12);  border-color: rgba(234,179,8,0.35);  }
+.status-LOW      { color: var(--color-low);      background: rgba(34,197,94,0.12);  border-color: rgba(34,197,94,0.35);  }
+
+/* ── Landing page utilities ──────────────────────────────────────────────── */
+.glass-panel {
+  background: rgba(10, 15, 28, 0.6);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(0, 212, 255, 0.15);
+  border-radius: 1rem;
+}
+
+.glass-panel-strong {
+  background: rgba(10, 15, 28, 0.8);
+  backdrop-filter: blur(32px);
+  -webkit-backdrop-filter: blur(32px);
+  border: 1px solid rgba(0, 212, 255, 0.2);
+  border-radius: 1rem;
+}
+
+.neon-glow-cyan  { box-shadow: 0 0 20px rgba(0,212,255,0.3), 0 0 40px rgba(0,212,255,0.1); }
+.neon-glow-orange { box-shadow: 0 0 20px rgba(255,107,53,0.3), 0 0 40px rgba(255,107,53,0.1); }
+
+.text-gradient {
+  background: linear-gradient(90deg, #00d4ff, #00b8a9, #ff6b35);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn-primary {
+  position: relative;
+  padding: 1rem 2rem;
+  background: linear-gradient(135deg, #00d4ff, #00b8a9);
+  color: #070b14;
+  font-weight: 700;
+  border-radius: 0.75rem;
+  transition: all 0.3s;
+  overflow: hidden;
+  border: none;
+  cursor: pointer;
+}
+.btn-primary:hover { box-shadow: 0 8px 25px rgba(0,212,255,0.3); transform: scale(1.05); }
+.btn-primary:active { transform: scale(0.95); }
+
+.btn-secondary {
+  position: relative;
+  padding: 1rem 2rem;
+  border: 1px solid rgba(0,212,255,0.4);
+  color: #00d4ff;
+  font-weight: 600;
+  border-radius: 0.75rem;
+  background: transparent;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.btn-secondary:hover { background: rgba(0,212,255,0.1); border-color: #00d4ff; }
+.btn-secondary:active { transform: scale(0.95); }
+
+.section-padding { padding-left: 1rem; padding-right: 1rem; }
+@media (min-width: 640px)  { .section-padding { padding-left: 1.5rem; padding-right: 1.5rem; } }
+@media (min-width: 1024px) { .section-padding { padding-left: 2rem;   padding-right: 2rem;   } }
+@media (min-width: 1280px) { .section-padding { padding-left: 4rem;   padding-right: 4rem;   } }
+@media (min-width: 1536px) { .section-padding { padding-left: 6rem;   padding-right: 6rem;   } }

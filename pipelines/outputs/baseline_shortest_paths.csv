@@ -1,0 +1,862 @@
+source,source_name,source_type,target,target_name,target_type,travel_time_hr,distance_km,num_hops,modes_used
+port_1,Bin Qasim Port,port,port_2,Gwadar,port,6.7567,667.8746,238,intermodal+road
+port_1,Bin Qasim Port,port,port_3,Karachi,port,0.4514,42.686,70,intermodal+road
+port_1,Bin Qasim Port,port,dryport_1,Faisalabad,dryport,10.8805,1158.3483,440,intermodal+road
+port_1,Bin Qasim Port,port,dryport_2,Gilgit,dryport,22.4073,2264.993,842,intermodal+road
+port_1,Bin Qasim Port,port,dryport_3,Islamabad,dryport,13.3559,1451.9366,554,intermodal+road
+port_1,Bin Qasim Port,port,dryport_4,Karachi,dryport,0.4283,40.6224,67,intermodal+road
+port_1,Bin Qasim Port,port,dryport_5,Lahore,dryport,11.5632,1256.5967,512,intermodal+road
+port_1,Bin Qasim Port,port,dryport_6,Peshawar,dryport,13.5474,1370.2679,554,intermodal+road
+port_1,Bin Qasim Port,port,dryport_7,Raiwind,dryport,12.3081,1308.8091,537,intermodal+road
+port_1,Bin Qasim Port,port,dryport_8,Sialkot,dryport,12.4513,1331.5722,483,intermodal+road
+port_1,Bin Qasim Port,port,dryport_9,Multan,dryport,9.1505,915.9869,335,intermodal+road
+port_1,Bin Qasim Port,port,station_1,Bahawalpur Railway Station,rail_station,8.3089,846.7693,291,intermodal+road
+port_1,Bin Qasim Port,port,station_2,Bin Qasim Railway Station,rail_station,0.4476,41.2015,69,intermodal+road
+port_1,Bin Qasim Port,port,station_3,Karachi Cantt,rail_station,0.4325,40.7492,69,intermodal+rail+road
+port_1,Bin Qasim Port,port,station_4,Chaman,rail_station,8.5121,848.6748,322,intermodal+road
+port_1,Bin Qasim Port,port,station_5,Dera Gazi Khan Railway Station,rail_station,10.2409,1002.3941,347,intermodal+rail+road
+port_1,Bin Qasim Port,port,station_6,Faislabad Railway Station,rail_station,10.8671,1157.9465,440,intermodal+road
+port_1,Bin Qasim Port,port,station_7,Gujranwala Railway Station,rail_station,12.4544,1331.6668,485,intermodal+road
+port_1,Bin Qasim Port,port,station_8,Hyderabad Railway Station,rail_station,1.6836,175.8884,98,intermodal+road
+port_1,Bin Qasim Port,port,station_9,Islamabad Railway Station,rail_station,13.3558,1451.9324,554,intermodal+road
+port_1,Bin Qasim Port,port,station_10,Jacobabad,rail_station,15.6069,1431.6808,348,intermodal+rail+road
+port_1,Bin Qasim Port,port,station_11,Karachi City,rail_station,0.4334,40.7769,69,intermodal+road
+port_1,Bin Qasim Port,port,station_12,Khanewal Railway Station,rail_station,16.7922,1599.6534,452,intermodal+rail+road
+port_1,Bin Qasim Port,port,station_13,Khanpur Railway Station,rail_station,8.309,846.7729,291,intermodal+road
+port_1,Bin Qasim Port,port,station_14,Taftan,rail_station,17.3413,1537.1783,306,intermodal+rail+road
+port_1,Bin Qasim Port,port,station_15,Kotri Railway Station,rail_station,2.502,206.3086,70,intermodal+rail+road
+port_1,Bin Qasim Port,port,station_16,Lahore,rail_station,13.7083,1352.8939,452,intermodal+rail+road
+port_1,Bin Qasim Port,port,station_17,Larkana Railway Station,rail_station,9.9045,939.7205,301,intermodal+rail+road
+port_1,Bin Qasim Port,port,station_18,Mirpur Khas Railway Station,rail_station,3.2583,266.778,72,intermodal+rail+road
+port_1,Bin Qasim Port,port,station_19,Multan Railway Station,rail_station,9.351,931.2529,344,intermodal+road
+port_1,Bin Qasim Port,port,station_20,NawabShah Railway Station,rail_station,3.5175,287.4713,73,intermodal+rail+road
+port_1,Bin Qasim Port,port,station_21,Railway Yard Karachi,rail_station,0.4431,41.0677,69,intermodal+road
+port_1,Bin Qasim Port,port,station_22,Peshawar Railway Station,rail_station,13.5504,1370.358,556,intermodal+road
+port_1,Bin Qasim Port,port,station_23,Quetta,rail_station,8.773,849.1886,301,intermodal+rail+road
+port_1,Bin Qasim Port,port,station_24,Rawalpindi Railway Station,rail_station,13.4986,1463.3581,555,intermodal+rail+road
+port_1,Bin Qasim Port,port,station_25,Sahiwal Railway Station,rail_station,10.7,1112.3211,447,intermodal+road
+port_1,Bin Qasim Port,port,station_26,Sargodha Railway Station,rail_station,11.3705,1220.8625,485,intermodal+road
+port_1,Bin Qasim Port,port,station_27,Sialkot,rail_station,12.4544,1331.6675,485,intermodal+road
+port_1,Bin Qasim Port,port,station_28,Sibi Junction Railway Station,rail_station,7.2916,730.7105,298,intermodal+road
+port_1,Bin Qasim Port,port,station_29,Sukkur Railway Station,rail_station,7.247,585.8403,73,intermodal+rail+road
+port_1,Bin Qasim Port,port,station_30,ZeroPoint Khokhrapar,rail_station,3.2578,266.7622,72,intermodal+rail+road
+port_2,Gwadar,port,port_3,Karachi,port,6.3381,627.3772,176,intermodal+road
+port_2,Gwadar,port,dryport_1,Faisalabad,dryport,16.9436,1764.736,594,intermodal+road
+port_2,Gwadar,port,dryport_2,Gilgit,dryport,28.4704,2871.3807,996,intermodal+road
+port_2,Gwadar,port,dryport_3,Islamabad,dryport,19.419,2058.3243,708,intermodal+road
+port_2,Gwadar,port,dryport_4,Karachi,dryport,6.3399,627.4588,177,intermodal+road
+port_2,Gwadar,port,dryport_5,Lahore,dryport,17.6263,1862.9844,666,intermodal+road
+port_2,Gwadar,port,dryport_6,Peshawar,dryport,19.6105,1976.6556,708,intermodal+road
+port_2,Gwadar,port,dryport_7,Raiwind,dryport,18.3713,1915.1968,691,intermodal+road
+port_2,Gwadar,port,dryport_8,Sialkot,dryport,18.5144,1937.9599,637,intermodal+road
+port_2,Gwadar,port,dryport_9,Multan,dryport,15.2136,1522.3746,489,intermodal+road
+port_2,Gwadar,port,station_1,Bahawalpur Railway Station,rail_station,14.372,1453.157,445,intermodal+road
+port_2,Gwadar,port,station_2,Bin Qasim Railway Station,rail_station,6.3592,628.0379,179,intermodal+road
+port_2,Gwadar,port,station_3,Karachi Cantt,rail_station,6.3441,627.5856,179,intermodal+rail+road
+port_2,Gwadar,port,station_4,Chaman,rail_station,12.3011,1223.1334,344,intermodal+road
+port_2,Gwadar,port,station_5,Dera Gazi Khan Railway Station,rail_station,16.304,1608.7818,501,intermodal+rail+road
+port_2,Gwadar,port,station_6,Faislabad Railway Station,rail_station,16.9302,1764.3342,594,intermodal+road
+port_2,Gwadar,port,station_7,Gujranwala Railway Station,rail_station,18.5175,1938.0545,639,intermodal+road
+port_2,Gwadar,port,station_8,Hyderabad Railway Station,rail_station,7.7467,790.3715,252,intermodal+road
+port_2,Gwadar,port,station_9,Islamabad Railway Station,rail_station,19.4189,2058.3201,708,intermodal+road
+port_2,Gwadar,port,station_10,Jacobabad,rail_station,21.6701,2038.0685,502,intermodal+rail+road
+port_2,Gwadar,port,station_11,Karachi City,rail_station,6.345,627.6133,179,intermodal+road
+port_2,Gwadar,port,station_12,Khanewal Railway Station,rail_station,22.8553,2206.0411,606,intermodal+rail+road
+port_2,Gwadar,port,station_13,Khanpur Railway Station,rail_station,14.3721,1453.1606,445,intermodal+road
+port_2,Gwadar,port,station_14,Taftan,rail_station,21.1303,1911.6369,328,intermodal+rail+road
+port_2,Gwadar,port,station_15,Kotri Railway Station,rail_station,8.4136,793.145,180,intermodal+rail+road
+port_2,Gwadar,port,station_16,Lahore,rail_station,19.7714,1959.2816,606,intermodal+rail+road
+port_2,Gwadar,port,station_17,Larkana Railway Station,rail_station,15.1672,1443.8252,345,intermodal+rail+road
+port_2,Gwadar,port,station_18,Mirpur Khas Railway Station,rail_station,9.1699,853.6144,182,intermodal+rail+road
+port_2,Gwadar,port,station_19,Multan Railway Station,rail_station,15.4141,1537.6406,498,intermodal+road
+port_2,Gwadar,port,station_20,NawabShah Railway Station,rail_station,9.4292,874.3077,183,intermodal+rail+road
+port_2,Gwadar,port,station_21,Railway Yard Karachi,rail_station,6.3547,627.9041,179,intermodal+road
+port_2,Gwadar,port,station_22,Peshawar Railway Station,rail_station,19.6135,1976.7457,710,intermodal+road
+port_2,Gwadar,port,station_23,Quetta,rail_station,14.0357,1353.2933,345,intermodal+rail+road
+port_2,Gwadar,port,station_24,Rawalpindi Railway Station,rail_station,19.5617,2069.7458,709,intermodal+rail+road
+port_2,Gwadar,port,station_25,Sahiwal Railway Station,rail_station,16.7631,1718.7088,601,intermodal+road
+port_2,Gwadar,port,station_26,Sargodha Railway Station,rail_station,17.4336,1827.2502,639,intermodal+road
+port_2,Gwadar,port,station_27,Sialkot,rail_station,18.5176,1938.0552,639,intermodal+road
+port_2,Gwadar,port,station_28,Sibi Junction Railway Station,rail_station,12.5543,1234.8152,342,intermodal+road
+port_2,Gwadar,port,station_29,Sukkur Railway Station,rail_station,13.1586,1172.6767,183,intermodal+rail+road
+port_2,Gwadar,port,station_30,ZeroPoint Khokhrapar,rail_station,9.1694,853.5986,182,intermodal+rail+road
+port_3,Karachi,port,dryport_1,Faisalabad,dryport,10.6808,1142.677,424,intermodal+road
+port_3,Karachi,port,dryport_2,Gilgit,dryport,22.2077,2249.3217,826,intermodal+road
+port_3,Karachi,port,dryport_3,Islamabad,dryport,13.1563,1436.2653,538,intermodal+road
+port_3,Karachi,port,dryport_4,Karachi,dryport,0.03,2.2702,5,intermodal+road
+port_3,Karachi,port,dryport_5,Lahore,dryport,11.3635,1240.9254,496,intermodal+road
+port_3,Karachi,port,dryport_6,Peshawar,dryport,13.3477,1354.5966,538,intermodal+road
+port_3,Karachi,port,dryport_7,Raiwind,dryport,12.1085,1293.1378,521,intermodal+road
+port_3,Karachi,port,dryport_8,Sialkot,dryport,12.2516,1315.9009,467,intermodal+road
+port_3,Karachi,port,dryport_9,Multan,dryport,8.9508,900.3156,319,intermodal+road
+port_3,Karachi,port,station_1,Bahawalpur Railway Station,rail_station,8.1092,831.098,275,intermodal+road
+port_3,Karachi,port,station_2,Bin Qasim Railway Station,rail_station,0.0493,2.8493,7,intermodal+road
+port_3,Karachi,port,station_3,Karachi Cantt,rail_station,0.0342,2.397,7,intermodal+rail+road
+port_3,Karachi,port,station_4,Chaman,rail_station,8.0936,808.1774,260,intermodal+road
+port_3,Karachi,port,station_5,Dera Gazi Khan Railway Station,rail_station,10.0412,986.7228,331,intermodal+rail+road
+port_3,Karachi,port,station_6,Faislabad Railway Station,rail_station,10.6674,1142.2752,424,intermodal+road
+port_3,Karachi,port,station_7,Gujranwala Railway Station,rail_station,12.2548,1315.9955,469,intermodal+road
+port_3,Karachi,port,station_8,Hyderabad Railway Station,rail_station,1.4839,168.3125,82,intermodal+road
+port_3,Karachi,port,station_9,Islamabad Railway Station,rail_station,13.1561,1436.2611,538,intermodal+road
+port_3,Karachi,port,station_10,Jacobabad,rail_station,15.4073,1416.0095,332,intermodal+rail+road
+port_3,Karachi,port,station_11,Karachi City,rail_station,0.0352,2.4247,7,intermodal+road
+port_3,Karachi,port,station_12,Khanewal Railway Station,rail_station,16.5926,1583.9821,436,intermodal+rail+road
+port_3,Karachi,port,station_13,Khanpur Railway Station,rail_station,8.1094,831.1016,275,intermodal+road
+port_3,Karachi,port,station_14,Taftan,rail_station,16.9227,1496.6809,244,intermodal+rail+road
+port_3,Karachi,port,station_15,Kotri Railway Station,rail_station,2.1037,167.9564,8,intermodal+rail+road
+port_3,Karachi,port,station_16,Lahore,rail_station,13.5086,1337.2226,436,intermodal+rail+road
+port_3,Karachi,port,station_17,Larkana Railway Station,rail_station,9.7049,924.0492,285,intermodal+rail+road
+port_3,Karachi,port,station_18,Mirpur Khas Railway Station,rail_station,2.8601,228.4258,10,intermodal+rail+road
+port_3,Karachi,port,station_19,Multan Railway Station,rail_station,9.1513,915.5816,328,intermodal+road
+port_3,Karachi,port,station_20,NawabShah Railway Station,rail_station,3.1193,249.1191,11,intermodal+rail+road
+port_3,Karachi,port,station_21,Railway Yard Karachi,rail_station,0.0449,2.7155,7,intermodal+road
+port_3,Karachi,port,station_22,Peshawar Railway Station,rail_station,13.3507,1354.6867,540,intermodal+road
+port_3,Karachi,port,station_23,Quetta,rail_station,8.5733,833.5173,285,intermodal+rail+road
+port_3,Karachi,port,station_24,Rawalpindi Railway Station,rail_station,13.299,1447.6868,539,intermodal+rail+road
+port_3,Karachi,port,station_25,Sahiwal Railway Station,rail_station,10.5003,1096.6498,431,intermodal+road
+port_3,Karachi,port,station_26,Sargodha Railway Station,rail_station,11.1708,1205.1912,469,intermodal+road
+port_3,Karachi,port,station_27,Sialkot,rail_station,12.2548,1315.9962,469,intermodal+road
+port_3,Karachi,port,station_28,Sibi Junction Railway Station,rail_station,7.0919,715.0392,282,intermodal+road
+port_3,Karachi,port,station_29,Sukkur Railway Station,rail_station,6.8487,547.4881,11,intermodal+rail+road
+port_3,Karachi,port,station_30,ZeroPoint Khokhrapar,rail_station,2.8595,228.41,10,intermodal+rail+road
+dryport_1,Faisalabad,dryport,dryport_2,Gilgit,dryport,12.2487,1267.7598,417,intermodal+road
+dryport_1,Faisalabad,dryport,dryport_3,Islamabad,dryport,3.1973,340.5182,129,intermodal+road
+dryport_1,Faisalabad,dryport,dryport_4,Karachi,dryport,10.6595,1140.6134,416,intermodal+road
+dryport_1,Faisalabad,dryport,dryport_5,Lahore,dryport,1.6861,147.3962,90,intermodal+road
+dryport_1,Faisalabad,dryport,dryport_6,Peshawar,dryport,4.5304,477.1414,225,intermodal+road
+dryport_1,Faisalabad,dryport,dryport_7,Raiwind,dryport,2.4311,199.4473,115,intermodal+road
+dryport_1,Faisalabad,dryport,dryport_8,Sialkot,dryport,2.2926,220.1538,58,intermodal+road
+dryport_1,Faisalabad,dryport,dryport_9,Multan,dryport,3.4347,296.4291,87,intermodal+road
+dryport_1,Faisalabad,dryport,station_1,Bahawalpur Railway Station,rail_station,4.3294,392.6394,126,intermodal+road
+dryport_1,Faisalabad,dryport,station_2,Bin Qasim Railway Station,rail_station,10.6788,1141.1925,418,intermodal+road
+dryport_1,Faisalabad,dryport,station_3,Karachi Cantt,rail_station,10.6637,1140.7402,418,intermodal+rail+road
+dryport_1,Faisalabad,dryport,station_4,Chaman,rail_station,11.4459,1150.6656,352,intermodal+road
+dryport_1,Faisalabad,dryport,station_5,Dera Gazi Khan Railway Station,rail_station,4.5251,382.8363,99,intermodal+rail+road
+dryport_1,Faisalabad,dryport,station_6,Faislabad Railway Station,rail_station,0.0135,0.4044,2,intermodal
+dryport_1,Faisalabad,dryport,station_7,Gujranwala Railway Station,rail_station,2.2958,220.2484,60,intermodal+road
+dryport_1,Faisalabad,dryport,station_8,Hyderabad Railway Station,rail_station,9.4097,991.258,364,intermodal+road
+dryport_1,Faisalabad,dryport,station_9,Islamabad Railway Station,rail_station,3.1971,340.514,129,intermodal+road
+dryport_1,Faisalabad,dryport,station_10,Jacobabad,rail_station,9.8912,812.123,100,intermodal+rail+road
+dryport_1,Faisalabad,dryport,station_11,Karachi City,rail_station,10.6646,1140.7679,418,intermodal+road
+dryport_1,Faisalabad,dryport,station_12,Khanewal Railway Station,rail_station,7.6774,610.062,71,intermodal+rail+road
+dryport_1,Faisalabad,dryport,station_13,Khanpur Railway Station,rail_station,4.3296,392.643,126,intermodal+road
+dryport_1,Faisalabad,dryport,station_14,Taftan,rail_station,20.2751,1839.1691,336,intermodal+rail+road
+dryport_1,Faisalabad,dryport,station_15,Kotri Railway Station,rail_station,12.7332,1306.2996,419,intermodal+rail+road
+dryport_1,Faisalabad,dryport,station_16,Lahore,rail_station,4.5934,363.3025,71,intermodal+rail+road
+dryport_1,Faisalabad,dryport,station_17,Larkana Railway Station,rail_station,11.3984,1084.6911,273,intermodal+rail+road
+dryport_1,Faisalabad,dryport,station_18,Mirpur Khas Railway Station,rail_station,13.4895,1366.769,421,intermodal+rail+road
+dryport_1,Faisalabad,dryport,station_19,Multan Railway Station,rail_station,3.6352,311.6951,96,intermodal+road
+dryport_1,Faisalabad,dryport,station_20,NawabShah Railway Station,rail_station,13.7487,1387.4623,422,intermodal+rail+road
+dryport_1,Faisalabad,dryport,station_21,Railway Yard Karachi,rail_station,10.6743,1141.0587,418,intermodal+road
+dryport_1,Faisalabad,dryport,station_22,Peshawar Railway Station,rail_station,4.5334,477.2315,227,intermodal+road
+dryport_1,Faisalabad,dryport,station_23,Quetta,rail_station,10.2669,994.1592,273,intermodal+rail+road
+dryport_1,Faisalabad,dryport,station_24,Rawalpindi Railway Station,rail_station,3.34,351.9397,130,intermodal+rail+road
+dryport_1,Faisalabad,dryport,station_25,Sahiwal Railway Station,rail_station,1.5851,122.7297,66,intermodal+road
+dryport_1,Faisalabad,dryport,station_26,Sargodha Railway Station,rail_station,1.2118,109.4441,60,intermodal+road
+dryport_1,Faisalabad,dryport,station_27,Sialkot,rail_station,2.2958,220.2491,60,intermodal+road
+dryport_1,Faisalabad,dryport,station_28,Sibi Junction Railway Station,rail_station,8.7855,875.6811,270,intermodal+road
+dryport_1,Faisalabad,dryport,station_29,Sukkur Railway Station,rail_station,17.4782,1685.8313,422,intermodal+rail+road
+dryport_1,Faisalabad,dryport,station_30,ZeroPoint Khokhrapar,rail_station,13.489,1366.7532,421,intermodal+rail+road
+dryport_2,Gilgit,dryport,dryport_3,Islamabad,dryport,9.5619,969.0441,319,intermodal+road
+dryport_2,Gilgit,dryport,dryport_4,Karachi,dryport,22.1863,2247.2581,818,intermodal+road
+dryport_2,Gilgit,dryport,dryport_5,Lahore,dryport,12.3726,1296.6437,475,intermodal+road
+dryport_2,Gilgit,dryport,dryport_6,Peshawar,dryport,9.0143,894.8509,320,intermodal+road
+dryport_2,Gilgit,dryport,dryport_7,Raiwind,dryport,13.1176,1348.6948,500,intermodal+road
+dryport_2,Gilgit,dryport,dryport_8,Sialkot,dryport,12.5829,1284.8729,409,intermodal+road
+dryport_2,Gilgit,dryport,dryport_9,Multan,dryport,14.7933,1445.2615,551,intermodal+road
+dryport_2,Gilgit,dryport,station_1,Bahawalpur Railway Station,rail_station,15.899,1552.358,571,intermodal+road
+dryport_2,Gilgit,dryport,station_2,Bin Qasim Railway Station,rail_station,22.2056,2247.8372,820,intermodal+road
+dryport_2,Gilgit,dryport,station_3,Karachi Cantt,rail_station,22.1906,2247.3849,820,intermodal+rail+road
+dryport_2,Gilgit,dryport,station_4,Chaman,rail_station,22.301,2215.4351,722,intermodal+road
+dryport_2,Gilgit,dryport,station_5,Dera Gazi Khan Railway Station,rail_station,15.8837,1531.6687,563,intermodal+rail+road
+dryport_2,Gilgit,dryport,station_6,Faislabad Railway Station,rail_station,12.2353,1267.358,417,intermodal+road
+dryport_2,Gilgit,dryport,station_7,Gujranwala Railway Station,rail_station,12.586,1284.9675,411,intermodal+road
+dryport_2,Gilgit,dryport,station_8,Hyderabad Railway Station,rail_station,20.9365,2097.9027,766,intermodal+road
+dryport_2,Gilgit,dryport,station_9,Islamabad Railway Station,rail_station,9.5617,969.0399,319,intermodal+road
+dryport_2,Gilgit,dryport,station_10,Jacobabad,rail_station,21.2498,1960.9554,564,intermodal+rail+road
+dryport_2,Gilgit,dryport,station_11,Karachi City,rail_station,22.1915,2247.4126,820,intermodal+road
+dryport_2,Gilgit,dryport,station_12,Khanewal Railway Station,rail_station,19.348,1837.9804,469,intermodal+rail+road
+dryport_2,Gilgit,dryport,station_13,Khanpur Railway Station,rail_station,15.8991,1552.3616,571,intermodal+road
+dryport_2,Gilgit,dryport,station_14,Taftan,rail_station,31.1302,2903.9386,706,intermodal+rail+road
+dryport_2,Gilgit,dryport,station_15,Kotri Railway Station,rail_station,24.26,2412.9443,821,intermodal+rail+road
+dryport_2,Gilgit,dryport,station_16,Lahore,rail_station,16.2641,1591.2209,469,intermodal+rail+road
+dryport_2,Gilgit,dryport,station_17,Larkana Railway Station,rail_station,22.2535,2149.4606,643,intermodal+rail+road
+dryport_2,Gilgit,dryport,station_18,Mirpur Khas Railway Station,rail_station,25.0164,2473.4137,823,intermodal+rail+road
+dryport_2,Gilgit,dryport,station_19,Multan Railway Station,rail_station,14.9938,1460.5275,560,intermodal+road
+dryport_2,Gilgit,dryport,station_20,NawabShah Railway Station,rail_station,25.2756,2494.107,824,intermodal+rail+road
+dryport_2,Gilgit,dryport,station_21,Railway Yard Karachi,rail_station,22.2012,2247.7034,820,intermodal+road
+dryport_2,Gilgit,dryport,station_22,Peshawar Railway Station,rail_station,9.0173,894.941,322,intermodal+road
+dryport_2,Gilgit,dryport,station_23,Quetta,rail_station,21.122,2058.9287,643,intermodal+rail+road
+dryport_2,Gilgit,dryport,station_24,Rawalpindi Railway Station,rail_station,9.7046,980.4656,320,intermodal+rail+road
+dryport_2,Gilgit,dryport,station_25,Sahiwal Railway Station,rail_station,13.2558,1350.6481,464,intermodal+road
+dryport_2,Gilgit,dryport,station_26,Sargodha Railway Station,rail_station,11.5081,1183.1992,377,intermodal+road
+dryport_2,Gilgit,dryport,station_27,Sialkot,rail_station,12.5861,1284.9682,411,intermodal+road
+dryport_2,Gilgit,dryport,station_28,Sibi Junction Railway Station,rail_station,19.6406,1940.4506,640,intermodal+road
+dryport_2,Gilgit,dryport,station_29,Sukkur Railway Station,rail_station,29.005,2792.476,824,intermodal+rail+road
+dryport_2,Gilgit,dryport,station_30,ZeroPoint Khokhrapar,rail_station,25.0158,2473.3979,823,intermodal+rail+road
+dryport_3,Islamabad,dryport,dryport_4,Karachi,dryport,13.1349,1434.2017,530,intermodal+road
+dryport_3,Islamabad,dryport,dryport_5,Lahore,dryport,3.3212,369.4021,187,intermodal+road
+dryport_3,Islamabad,dryport,dryport_6,Peshawar,dryport,1.6904,163.129,124,intermodal+road
+dryport_3,Islamabad,dryport,dryport_7,Raiwind,dryport,4.0662,421.4532,212,intermodal+road
+dryport_3,Islamabad,dryport,dryport_8,Sialkot,dryport,3.5315,357.6313,121,intermodal+road
+dryport_3,Islamabad,dryport,dryport_9,Multan,dryport,5.8325,576.2225,165,intermodal+road
+dryport_3,Islamabad,dryport,station_1,Bahawalpur Railway Station,rail_station,6.9382,683.319,185,intermodal+road
+dryport_3,Islamabad,dryport,station_2,Bin Qasim Railway Station,rail_station,13.1542,1434.7808,532,intermodal+road
+dryport_3,Islamabad,dryport,station_3,Karachi Cantt,rail_station,13.1391,1434.3285,532,intermodal+rail+road
+dryport_3,Islamabad,dryport,station_4,Chaman,rail_station,13.9214,1424.2087,466,intermodal+road
+dryport_3,Islamabad,dryport,station_5,Dera Gazi Khan Railway Station,rail_station,6.9229,662.6297,177,intermodal+rail+road
+dryport_3,Islamabad,dryport,station_6,Faislabad Railway Station,rail_station,3.1839,340.1164,129,intermodal+road
+dryport_3,Islamabad,dryport,station_7,Gujranwala Railway Station,rail_station,3.5346,357.7259,123,intermodal+road
+dryport_3,Islamabad,dryport,station_8,Hyderabad Railway Station,rail_station,11.8851,1284.8463,478,intermodal+road
+dryport_3,Islamabad,dryport,station_9,Islamabad Railway Station,rail_station,0.0003,0.0092,2,intermodal
+dryport_3,Islamabad,dryport,station_10,Jacobabad,rail_station,12.2889,1091.9164,178,intermodal+rail+road
+dryport_3,Islamabad,dryport,station_11,Karachi City,rail_station,13.1401,1434.3562,532,intermodal+road
+dryport_3,Islamabad,dryport,station_12,Khanewal Railway Station,rail_station,10.2966,910.7388,181,intermodal+rail+road
+dryport_3,Islamabad,dryport,station_13,Khanpur Railway Station,rail_station,6.9383,683.3226,185,intermodal+road
+dryport_3,Islamabad,dryport,station_14,Taftan,rail_station,22.7505,2112.7122,450,intermodal+rail+road
+dryport_3,Islamabad,dryport,station_15,Kotri Railway Station,rail_station,15.2086,1599.8879,533,intermodal+rail+road
+dryport_3,Islamabad,dryport,station_16,Lahore,rail_station,7.2127,663.9793,181,intermodal+rail+road
+dryport_3,Islamabad,dryport,station_17,Larkana Railway Station,rail_station,13.8739,1358.2342,387,intermodal+rail+road
+dryport_3,Islamabad,dryport,station_18,Mirpur Khas Railway Station,rail_station,15.965,1660.3573,535,intermodal+rail+road
+dryport_3,Islamabad,dryport,station_19,Multan Railway Station,rail_station,6.033,591.4885,174,intermodal+road
+dryport_3,Islamabad,dryport,station_20,NawabShah Railway Station,rail_station,16.2242,1681.0506,536,intermodal+rail+road
+dryport_3,Islamabad,dryport,station_21,Railway Yard Karachi,rail_station,13.1498,1434.647,532,intermodal+road
+dryport_3,Islamabad,dryport,station_22,Peshawar Railway Station,rail_station,1.6934,163.2191,126,intermodal+road
+dryport_3,Islamabad,dryport,station_23,Quetta,rail_station,12.7424,1267.7023,387,intermodal+rail+road
+dryport_3,Islamabad,dryport,station_24,Rawalpindi Railway Station,rail_station,0.1431,11.4349,3,intermodal+rail
+dryport_3,Islamabad,dryport,station_25,Sahiwal Railway Station,rail_station,4.2044,423.4065,176,intermodal+road
+dryport_3,Islamabad,dryport,station_26,Sargodha Railway Station,rail_station,2.4567,255.9576,89,intermodal+road
+dryport_3,Islamabad,dryport,station_27,Sialkot,rail_station,3.5347,357.7266,123,intermodal+road
+dryport_3,Islamabad,dryport,station_28,Sibi Junction Railway Station,rail_station,11.261,1149.2242,384,intermodal+road
+dryport_3,Islamabad,dryport,station_29,Sukkur Railway Station,rail_station,19.9536,1979.4196,536,intermodal+rail+road
+dryport_3,Islamabad,dryport,station_30,ZeroPoint Khokhrapar,rail_station,15.9644,1660.3415,535,intermodal+rail+road
+dryport_4,Karachi,dryport,dryport_5,Lahore,dryport,11.3422,1238.8618,488,intermodal+road
+dryport_4,Karachi,dryport,dryport_6,Peshawar,dryport,13.3264,1352.533,530,intermodal+road
+dryport_4,Karachi,dryport,dryport_7,Raiwind,dryport,12.0871,1291.0742,513,intermodal+road
+dryport_4,Karachi,dryport,dryport_8,Sialkot,dryport,12.2303,1313.8373,459,intermodal+road
+dryport_4,Karachi,dryport,dryport_9,Multan,dryport,8.9295,898.252,311,intermodal+road
+dryport_4,Karachi,dryport,station_1,Bahawalpur Railway Station,rail_station,8.0879,829.0344,267,intermodal+road
+dryport_4,Karachi,dryport,station_2,Bin Qasim Railway Station,rail_station,0.0193,0.5791,2,intermodal
+dryport_4,Karachi,dryport,station_3,Karachi Cantt,rail_station,0.0042,0.1268,2,intermodal+rail
+dryport_4,Karachi,dryport,station_4,Chaman,rail_station,8.0954,808.259,261,intermodal+road
+dryport_4,Karachi,dryport,station_5,Dera Gazi Khan Railway Station,rail_station,10.0198,984.6592,323,intermodal+rail+road
+dryport_4,Karachi,dryport,station_6,Faislabad Railway Station,rail_station,10.6461,1140.2116,416,intermodal+road
+dryport_4,Karachi,dryport,station_7,Gujranwala Railway Station,rail_station,12.2334,1313.9319,461,intermodal+road
+dryport_4,Karachi,dryport,station_8,Hyderabad Railway Station,rail_station,1.4625,166.2489,74,intermodal+road
+dryport_4,Karachi,dryport,station_9,Islamabad Railway Station,rail_station,13.1348,1434.1975,530,intermodal+road
+dryport_4,Karachi,dryport,station_10,Jacobabad,rail_station,15.3859,1413.9459,324,intermodal+rail+road
+dryport_4,Karachi,dryport,station_11,Karachi City,rail_station,0.0052,0.1545,2,intermodal
+dryport_4,Karachi,dryport,station_12,Khanewal Railway Station,rail_station,16.5712,1581.9185,428,intermodal+rail+road
+dryport_4,Karachi,dryport,station_13,Khanpur Railway Station,rail_station,8.088,829.038,267,intermodal+road
+dryport_4,Karachi,dryport,station_14,Taftan,rail_station,16.9245,1496.7625,245,intermodal+rail+road
+dryport_4,Karachi,dryport,station_15,Kotri Railway Station,rail_station,2.0737,165.6862,3,intermodal+rail
+dryport_4,Karachi,dryport,station_16,Lahore,rail_station,13.4873,1335.159,428,intermodal+rail+road
+dryport_4,Karachi,dryport,station_17,Larkana Railway Station,rail_station,9.6835,921.9856,277,intermodal+rail+road
+dryport_4,Karachi,dryport,station_18,Mirpur Khas Railway Station,rail_station,2.83,226.1556,5,intermodal+rail
+dryport_4,Karachi,dryport,station_19,Multan Railway Station,rail_station,9.13,913.518,320,intermodal+road
+dryport_4,Karachi,dryport,station_20,NawabShah Railway Station,rail_station,3.0893,246.8489,6,intermodal+rail
+dryport_4,Karachi,dryport,station_21,Railway Yard Karachi,rail_station,0.0148,0.4453,2,intermodal
+dryport_4,Karachi,dryport,station_22,Peshawar Railway Station,rail_station,13.3294,1352.6231,532,intermodal+road
+dryport_4,Karachi,dryport,station_23,Quetta,rail_station,8.552,831.4537,277,intermodal+rail+road
+dryport_4,Karachi,dryport,station_24,Rawalpindi Railway Station,rail_station,13.2776,1445.6232,531,intermodal+rail+road
+dryport_4,Karachi,dryport,station_25,Sahiwal Railway Station,rail_station,10.479,1094.5862,423,intermodal+road
+dryport_4,Karachi,dryport,station_26,Sargodha Railway Station,rail_station,11.1495,1203.1276,461,intermodal+road
+dryport_4,Karachi,dryport,station_27,Sialkot,rail_station,12.2334,1313.9326,461,intermodal+road
+dryport_4,Karachi,dryport,station_28,Sibi Junction Railway Station,rail_station,7.0706,712.9756,274,intermodal+road
+dryport_4,Karachi,dryport,station_29,Sukkur Railway Station,rail_station,6.8187,545.2179,6,intermodal+rail
+dryport_4,Karachi,dryport,station_30,ZeroPoint Khokhrapar,rail_station,2.8295,226.1398,5,intermodal+rail
+dryport_5,Lahore,dryport,dryport_6,Peshawar,dryport,4.6543,506.0253,283,intermodal+road
+dryport_5,Lahore,dryport,dryport_7,Raiwind,dryport,0.8294,58.0383,52,intermodal+road
+dryport_5,Lahore,dryport,dryport_8,Sialkot,dryport,1.3543,131.6515,70,intermodal+road
+dryport_5,Lahore,dryport,dryport_9,Multan,dryport,3.7389,367.7701,102,intermodal+road
+dryport_5,Lahore,dryport,station_1,Bahawalpur Railway Station,rail_station,4.5002,442.1878,118,intermodal+road
+dryport_5,Lahore,dryport,station_2,Bin Qasim Railway Station,rail_station,11.3615,1239.4409,490,intermodal+road
+dryport_5,Lahore,dryport,station_3,Karachi Cantt,rail_station,11.3464,1238.9886,490,intermodal+rail+road
+dryport_5,Lahore,dryport,station_4,Chaman,rail_station,12.1286,1254.0894,424,intermodal+road
+dryport_5,Lahore,dryport,station_5,Dera Gazi Khan Railway Station,rail_station,4.8649,457.7391,118,intermodal+rail+road
+dryport_5,Lahore,dryport,station_6,Faislabad Railway Station,rail_station,1.6727,146.9944,90,intermodal+road
+dryport_5,Lahore,dryport,station_7,Gujranwala Railway Station,rail_station,1.3574,131.7461,72,intermodal+road
+dryport_5,Lahore,dryport,station_8,Hyderabad Railway Station,rail_station,10.0924,1089.5064,436,intermodal+road
+dryport_5,Lahore,dryport,station_9,Islamabad Railway Station,rail_station,3.3211,369.3979,187,intermodal+road
+dryport_5,Lahore,dryport,station_10,Jacobabad,rail_station,10.231,887.0258,119,intermodal+rail+road
+dryport_5,Lahore,dryport,station_11,Karachi City,rail_station,11.3473,1239.0163,490,intermodal+road
+dryport_5,Lahore,dryport,station_12,Khanewal Railway Station,rail_station,7.8625,660.7584,69,intermodal+rail+road
+dryport_5,Lahore,dryport,station_13,Khanpur Railway Station,rail_station,4.5003,442.1914,118,intermodal+road
+dryport_5,Lahore,dryport,station_14,Taftan,rail_station,20.9578,1942.5929,408,intermodal+rail+road
+dryport_5,Lahore,dryport,station_15,Kotri Railway Station,rail_station,13.4159,1404.548,491,intermodal+rail+road
+dryport_5,Lahore,dryport,station_16,Lahore,rail_station,4.7786,413.9989,69,intermodal+rail+road
+dryport_5,Lahore,dryport,station_17,Larkana Railway Station,rail_station,12.0812,1188.1149,345,intermodal+rail+road
+dryport_5,Lahore,dryport,station_18,Mirpur Khas Railway Station,rail_station,14.1722,1465.0174,493,intermodal+rail+road
+dryport_5,Lahore,dryport,station_19,Multan Railway Station,rail_station,3.9751,386.5979,115,intermodal+road
+dryport_5,Lahore,dryport,station_20,NawabShah Railway Station,rail_station,14.4315,1485.7107,494,intermodal+rail+road
+dryport_5,Lahore,dryport,station_21,Railway Yard Karachi,rail_station,11.357,1239.3071,490,intermodal+road
+dryport_5,Lahore,dryport,station_22,Peshawar Railway Station,rail_station,4.6573,506.1154,285,intermodal+road
+dryport_5,Lahore,dryport,station_23,Quetta,rail_station,10.9496,1097.583,345,intermodal+rail+road
+dryport_5,Lahore,dryport,station_24,Rawalpindi Railway Station,rail_station,3.4639,380.8236,188,intermodal+rail+road
+dryport_5,Lahore,dryport,station_25,Sahiwal Railway Station,rail_station,1.7703,173.4261,64,intermodal+road
+dryport_5,Lahore,dryport,station_26,Sargodha Railway Station,rail_station,1.7641,183.4738,113,intermodal+road
+dryport_5,Lahore,dryport,station_27,Sialkot,rail_station,1.3574,131.7468,72,intermodal+road
+dryport_5,Lahore,dryport,station_28,Sibi Junction Railway Station,rail_station,9.4682,979.1049,342,intermodal+road
+dryport_5,Lahore,dryport,station_29,Sukkur Railway Station,rail_station,18.1609,1784.0797,494,intermodal+rail+road
+dryport_5,Lahore,dryport,station_30,ZeroPoint Khokhrapar,rail_station,14.1717,1465.0016,493,intermodal+rail+road
+dryport_6,Peshawar,dryport,dryport_7,Raiwind,dryport,5.3993,558.0764,308,intermodal+road
+dryport_6,Peshawar,dryport,dryport_8,Sialkot,dryport,4.8646,494.2545,217,intermodal+road
+dryport_6,Peshawar,dryport,dryport_9,Multan,dryport,5.7832,550.5364,233,intermodal+road
+dryport_6,Peshawar,dryport,station_1,Bahawalpur Railway Station,rail_station,6.8889,657.6329,253,intermodal+road
+dryport_6,Peshawar,dryport,station_2,Bin Qasim Railway Station,rail_station,13.3457,1353.1121,532,intermodal+road
+dryport_6,Peshawar,dryport,station_3,Karachi Cantt,rail_station,13.3306,1352.6598,532,intermodal+rail+road
+dryport_6,Peshawar,dryport,station_4,Chaman,rail_station,13.2909,1320.71,404,intermodal+road
+dryport_6,Peshawar,dryport,station_5,Dera Gazi Khan Railway Station,rail_station,6.8736,636.9436,245,intermodal+rail+road
+dryport_6,Peshawar,dryport,station_6,Faislabad Railway Station,rail_station,4.517,476.7396,225,intermodal+road
+dryport_6,Peshawar,dryport,station_7,Gujranwala Railway Station,rail_station,4.8677,494.3491,219,intermodal+road
+dryport_6,Peshawar,dryport,station_8,Hyderabad Railway Station,rail_station,12.0766,1203.1776,478,intermodal+road
+dryport_6,Peshawar,dryport,station_9,Islamabad Railway Station,rail_station,1.6903,163.1248,124,intermodal+road
+dryport_6,Peshawar,dryport,station_10,Jacobabad,rail_station,12.2397,1066.2303,246,intermodal+rail+road
+dryport_6,Peshawar,dryport,station_11,Karachi City,rail_station,13.3315,1352.6875,532,intermodal+road
+dryport_6,Peshawar,dryport,station_12,Khanewal Railway Station,rail_station,11.6297,1047.362,277,intermodal+rail+road
+dryport_6,Peshawar,dryport,station_13,Khanpur Railway Station,rail_station,6.889,657.6365,253,intermodal+road
+dryport_6,Peshawar,dryport,station_14,Taftan,rail_station,22.1201,2009.2135,388,intermodal+rail+road
+dryport_6,Peshawar,dryport,station_15,Kotri Railway Station,rail_station,15.4001,1518.2192,533,intermodal+rail+road
+dryport_6,Peshawar,dryport,station_16,Lahore,rail_station,8.5458,800.6025,277,intermodal+rail+road
+dryport_6,Peshawar,dryport,station_17,Larkana Railway Station,rail_station,13.2434,1254.7355,325,intermodal+rail+road
+dryport_6,Peshawar,dryport,station_18,Mirpur Khas Railway Station,rail_station,16.1564,1578.6886,535,intermodal+rail+road
+dryport_6,Peshawar,dryport,station_19,Multan Railway Station,rail_station,5.9837,565.8024,242,intermodal+road
+dryport_6,Peshawar,dryport,station_20,NawabShah Railway Station,rail_station,16.4157,1599.3819,536,intermodal+rail+road
+dryport_6,Peshawar,dryport,station_21,Railway Yard Karachi,rail_station,13.3412,1352.9783,532,intermodal+road
+dryport_6,Peshawar,dryport,station_22,Peshawar Railway Station,rail_station,0.003,0.0901,2,intermodal
+dryport_6,Peshawar,dryport,station_23,Quetta,rail_station,12.1119,1164.2036,325,intermodal+rail+road
+dryport_6,Peshawar,dryport,station_24,Rawalpindi Railway Station,rail_station,1.8331,174.5505,125,intermodal+rail+road
+dryport_6,Peshawar,dryport,station_25,Sahiwal Railway Station,rail_station,5.5375,560.0297,272,intermodal+road
+dryport_6,Peshawar,dryport,station_26,Sargodha Railway Station,rail_station,3.7898,392.5808,185,intermodal+road
+dryport_6,Peshawar,dryport,station_27,Sialkot,rail_station,4.8678,494.3498,219,intermodal+road
+dryport_6,Peshawar,dryport,station_28,Sibi Junction Railway Station,rail_station,10.6305,1045.7255,322,intermodal+road
+dryport_6,Peshawar,dryport,station_29,Sukkur Railway Station,rail_station,20.1451,1897.7509,536,intermodal+rail+road
+dryport_6,Peshawar,dryport,station_30,ZeroPoint Khokhrapar,rail_station,16.1559,1578.6728,535,intermodal+rail+road
+dryport_7,Raiwind,dryport,dryport_8,Sialkot,dryport,2.0992,183.8639,95,intermodal+road
+dryport_7,Raiwind,dryport,dryport_9,Multan,dryport,4.3988,410.7024,94,intermodal+road
+dryport_7,Raiwind,dryport,station_1,Bahawalpur Railway Station,rail_station,5.1601,485.1201,110,intermodal+road
+dryport_7,Raiwind,dryport,station_2,Bin Qasim Railway Station,rail_station,12.1064,1291.6533,515,intermodal+road
+dryport_7,Raiwind,dryport,station_3,Karachi Cantt,rail_station,12.0914,1291.201,515,intermodal+rail+road
+dryport_7,Raiwind,dryport,station_4,Chaman,rail_station,12.8736,1297.0217,449,intermodal+road
+dryport_7,Raiwind,dryport,station_5,Dera Gazi Khan Railway Station,rail_station,5.5248,500.6714,110,intermodal+rail+road
+dryport_7,Raiwind,dryport,station_6,Faislabad Railway Station,rail_station,2.4177,199.0455,115,intermodal+road
+dryport_7,Raiwind,dryport,station_7,Gujranwala Railway Station,rail_station,2.1024,183.9585,97,intermodal+road
+dryport_7,Raiwind,dryport,station_8,Hyderabad Railway Station,rail_station,10.8373,1141.7188,461,intermodal+road
+dryport_7,Raiwind,dryport,station_9,Islamabad Railway Station,rail_station,4.066,421.449,212,intermodal+road
+dryport_7,Raiwind,dryport,station_10,Jacobabad,rail_station,10.8909,929.9581,111,intermodal+rail+road
+dryport_7,Raiwind,dryport,station_11,Karachi City,rail_station,12.0923,1291.2287,515,intermodal+road
+dryport_7,Raiwind,dryport,station_12,Khanewal Railway Station,rail_station,8.5223,703.6907,61,intermodal+rail+road
+dryport_7,Raiwind,dryport,station_13,Khanpur Railway Station,rail_station,5.1602,485.1237,110,intermodal+road
+dryport_7,Raiwind,dryport,station_14,Taftan,rail_station,21.7028,1985.5252,433,intermodal+rail+road
+dryport_7,Raiwind,dryport,station_15,Kotri Railway Station,rail_station,14.1608,1456.7604,516,intermodal+rail+road
+dryport_7,Raiwind,dryport,station_16,Lahore,rail_station,5.4384,456.9312,61,intermodal+rail+road
+dryport_7,Raiwind,dryport,station_17,Larkana Railway Station,rail_station,12.8261,1231.0472,370,intermodal+rail+road
+dryport_7,Raiwind,dryport,station_18,Mirpur Khas Railway Station,rail_station,14.9172,1517.2298,518,intermodal+rail+road
+dryport_7,Raiwind,dryport,station_19,Multan Railway Station,rail_station,4.6349,429.5302,107,intermodal+road
+dryport_7,Raiwind,dryport,station_20,NawabShah Railway Station,rail_station,15.1764,1537.9231,519,intermodal+rail+road
+dryport_7,Raiwind,dryport,station_21,Railway Yard Karachi,rail_station,12.102,1291.5195,515,intermodal+road
+dryport_7,Raiwind,dryport,station_22,Peshawar Railway Station,rail_station,5.4023,558.1665,310,intermodal+road
+dryport_7,Raiwind,dryport,station_23,Quetta,rail_station,11.6946,1140.5153,370,intermodal+rail+road
+dryport_7,Raiwind,dryport,station_24,Rawalpindi Railway Station,rail_station,4.2089,432.8747,213,intermodal+rail+road
+dryport_7,Raiwind,dryport,station_25,Sahiwal Railway Station,rail_station,2.4301,216.3584,56,intermodal+road
+dryport_7,Raiwind,dryport,station_26,Sargodha Railway Station,rail_station,2.5091,235.5249,138,intermodal+road
+dryport_7,Raiwind,dryport,station_27,Sialkot,rail_station,2.1024,183.9592,97,intermodal+road
+dryport_7,Raiwind,dryport,station_28,Sibi Junction Railway Station,rail_station,10.2132,1022.0372,367,intermodal+road
+dryport_7,Raiwind,dryport,station_29,Sukkur Railway Station,rail_station,18.9058,1836.2921,519,intermodal+rail+road
+dryport_7,Raiwind,dryport,station_30,ZeroPoint Khokhrapar,rail_station,14.9167,1517.214,518,intermodal+rail+road
+dryport_8,Sialkot,dryport,dryport_9,Multan,dryport,4.9278,455.8581,94,intermodal+road
+dryport_8,Sialkot,dryport,station_1,Bahawalpur Railway Station,rail_station,5.7361,562.6044,142,intermodal+road
+dryport_8,Sialkot,dryport,station_2,Bin Qasim Railway Station,rail_station,12.2496,1314.4164,461,intermodal+road
+dryport_8,Sialkot,dryport,station_3,Karachi Cantt,rail_station,12.2345,1313.9641,461,intermodal+rail+road
+dryport_8,Sialkot,dryport,station_4,Chaman,rail_station,13.0167,1310.0946,395,intermodal+road
+dryport_8,Sialkot,dryport,station_5,Dera Gazi Khan Railway Station,rail_station,6.0182,542.2653,106,intermodal+rail+road
+dryport_8,Sialkot,dryport,station_6,Faislabad Railway Station,rail_station,2.2792,219.752,58,intermodal+road
+dryport_8,Sialkot,dryport,station_7,Gujranwala Railway Station,rail_station,0.0032,0.0946,2,intermodal
+dryport_8,Sialkot,dryport,station_8,Hyderabad Railway Station,rail_station,10.9805,1164.4819,407,intermodal+road
+dryport_8,Sialkot,dryport,station_9,Islamabad Railway Station,rail_station,3.5313,357.6271,121,intermodal+road
+dryport_8,Sialkot,dryport,station_10,Jacobabad,rail_station,11.3843,971.552,107,intermodal+rail+road
+dryport_8,Sialkot,dryport,station_11,Karachi City,rail_station,12.2354,1313.9918,461,intermodal+road
+dryport_8,Sialkot,dryport,station_12,Khanewal Railway Station,rail_station,9.0984,781.175,93,intermodal+rail+road
+dryport_8,Sialkot,dryport,station_13,Khanpur Railway Station,rail_station,5.7362,562.608,142,intermodal+road
+dryport_8,Sialkot,dryport,station_14,Taftan,rail_station,21.8459,1998.5981,379,intermodal+rail+road
+dryport_8,Sialkot,dryport,station_15,Kotri Railway Station,rail_station,14.304,1479.5235,462,intermodal+rail+road
+dryport_8,Sialkot,dryport,station_16,Lahore,rail_station,6.0144,534.4155,93,intermodal+rail+road
+dryport_8,Sialkot,dryport,station_17,Larkana Railway Station,rail_station,12.9692,1244.1201,316,intermodal+rail+road
+dryport_8,Sialkot,dryport,station_18,Mirpur Khas Railway Station,rail_station,15.0603,1539.9929,464,intermodal+rail+road
+dryport_8,Sialkot,dryport,station_19,Multan Railway Station,rail_station,5.1283,471.1241,103,intermodal+road
+dryport_8,Sialkot,dryport,station_20,NawabShah Railway Station,rail_station,15.3195,1560.6862,465,intermodal+rail+road
+dryport_8,Sialkot,dryport,station_21,Railway Yard Karachi,rail_station,12.2451,1314.2826,461,intermodal+road
+dryport_8,Sialkot,dryport,station_22,Peshawar Railway Station,rail_station,4.8676,494.3446,219,intermodal+road
+dryport_8,Sialkot,dryport,station_23,Quetta,rail_station,11.8377,1153.5882,316,intermodal+rail+road
+dryport_8,Sialkot,dryport,station_24,Rawalpindi Railway Station,rail_station,3.6742,369.0528,122,intermodal+rail+road
+dryport_8,Sialkot,dryport,station_25,Sahiwal Railway Station,rail_station,3.0061,293.8427,88,intermodal+road
+dryport_8,Sialkot,dryport,station_26,Sargodha Railway Station,rail_station,1.9744,196.8805,47,intermodal+road
+dryport_8,Sialkot,dryport,station_27,Sialkot,rail_station,0.0032,0.0953,2,intermodal
+dryport_8,Sialkot,dryport,station_28,Sibi Junction Railway Station,rail_station,10.3563,1035.1101,313,intermodal+road
+dryport_8,Sialkot,dryport,station_29,Sukkur Railway Station,rail_station,19.049,1859.0552,465,intermodal+rail+road
+dryport_8,Sialkot,dryport,station_30,ZeroPoint Khokhrapar,rail_station,15.0598,1539.9771,464,intermodal+rail+road
+dryport_9,Multan,dryport,station_1,Bahawalpur Railway Station,rail_station,1.1136,107.3357,22,intermodal+road
+dryport_9,Multan,dryport,station_2,Bin Qasim Railway Station,rail_station,8.9488,898.8311,313,intermodal+road
+dryport_9,Multan,dryport,station_3,Karachi Cantt,rail_station,8.9337,898.3788,313,intermodal+rail+road
+dryport_9,Multan,dryport,station_4,Chaman,rail_station,8.9309,886.5585,239,intermodal+road
+dryport_9,Multan,dryport,station_5,Dera Gazi Khan Railway Station,rail_station,1.134,90.2082,18,intermodal+rail+road
+dryport_9,Multan,dryport,station_6,Faislabad Railway Station,rail_station,3.4213,296.0273,87,intermodal+road
+dryport_9,Multan,dryport,station_7,Gujranwala Railway Station,rail_station,4.931,455.9527,96,intermodal+road
+dryport_9,Multan,dryport,station_8,Hyderabad Railway Station,rail_station,7.6797,748.8966,259,intermodal+road
+dryport_9,Multan,dryport,station_9,Islamabad Railway Station,rail_station,5.8323,576.2183,165,intermodal+road
+dryport_9,Multan,dryport,station_10,Jacobabad,rail_station,6.5001,519.4949,19,intermodal+rail+road
+dryport_9,Multan,dryport,station_11,Karachi City,rail_station,8.9346,898.4065,313,intermodal+road
+dryport_9,Multan,dryport,station_12,Khanewal Railway Station,rail_station,8.1113,683.9057,51,intermodal+rail+road
+dryport_9,Multan,dryport,station_13,Khanpur Railway Station,rail_station,1.1138,107.3393,22,intermodal+road
+dryport_9,Multan,dryport,station_14,Taftan,rail_station,17.7601,1575.062,223,intermodal+rail+road
+dryport_9,Multan,dryport,station_15,Kotri Railway Station,rail_station,11.0032,1063.9382,314,intermodal+rail+road
+dryport_9,Multan,dryport,station_16,Lahore,rail_station,5.0274,437.1462,51,intermodal+rail+road
+dryport_9,Multan,dryport,station_17,Larkana Railway Station,rail_station,8.8834,820.584,160,intermodal+rail+road
+dryport_9,Multan,dryport,station_18,Mirpur Khas Railway Station,rail_station,11.7595,1124.4076,316,intermodal+rail+road
+dryport_9,Multan,dryport,station_19,Multan Railway Station,rail_station,0.2441,19.067,15,intermodal+road
+dryport_9,Multan,dryport,station_20,NawabShah Railway Station,rail_station,12.0188,1145.1009,317,intermodal+rail+road
+dryport_9,Multan,dryport,station_21,Railway Yard Karachi,rail_station,8.9443,898.6973,313,intermodal+road
+dryport_9,Multan,dryport,station_22,Peshawar Railway Station,rail_station,5.7862,550.6265,235,intermodal+road
+dryport_9,Multan,dryport,station_23,Quetta,rail_station,7.7519,730.0521,160,intermodal+rail+road
+dryport_9,Multan,dryport,station_24,Rawalpindi Railway Station,rail_station,5.9752,587.644,166,intermodal+rail+road
+dryport_9,Multan,dryport,station_25,Sahiwal Railway Station,rail_station,2.0191,196.5734,46,intermodal+road
+dryport_9,Multan,dryport,station_26,Sargodha Railway Station,rail_station,3.847,345.1484,96,intermodal+road
+dryport_9,Multan,dryport,station_27,Sialkot,rail_station,4.931,455.9534,96,intermodal+road
+dryport_9,Multan,dryport,station_28,Sibi Junction Railway Station,rail_station,6.2705,611.574,157,intermodal+road
+dryport_9,Multan,dryport,station_29,Sukkur Railway Station,rail_station,15.7482,1443.4699,317,intermodal+rail+road
+dryport_9,Multan,dryport,station_30,ZeroPoint Khokhrapar,rail_station,11.759,1124.3918,316,intermodal+rail+road
+station_1,Bahawalpur Railway Station,rail_station,station_2,Bin Qasim Railway Station,rail_station,8.1072,829.6135,269,intermodal+road
+station_1,Bahawalpur Railway Station,rail_station,station_3,Karachi Cantt,rail_station,8.0921,829.1612,269,intermodal+rail+road
+station_1,Bahawalpur Railway Station,rail_station,station_4,Chaman,rail_station,8.8743,878.3322,203,intermodal+road
+station_1,Bahawalpur Railway Station,rail_station,station_5,Dera Gazi Khan Railway Station,rail_station,2.2396,197.3047,38,intermodal+rail+road
+station_1,Bahawalpur Railway Station,rail_station,station_6,Faislabad Railway Station,rail_station,4.3161,392.2376,126,intermodal+road
+station_1,Bahawalpur Railway Station,rail_station,station_7,Gujranwala Railway Station,rail_station,5.7393,562.699,144,intermodal+road
+station_1,Bahawalpur Railway Station,rail_station,station_8,Hyderabad Railway Station,rail_station,6.8381,679.679,215,intermodal+road
+station_1,Bahawalpur Railway Station,rail_station,station_9,Islamabad Railway Station,rail_station,6.938,683.3148,185,intermodal+road
+station_1,Bahawalpur Railway Station,rail_station,station_10,Jacobabad,rail_station,7.6057,626.5914,39,intermodal+rail+road
+station_1,Bahawalpur Railway Station,rail_station,station_11,Karachi City,rail_station,8.093,829.1889,269,intermodal+road
+station_1,Bahawalpur Railway Station,rail_station,station_12,Khanewal Railway Station,rail_station,8.8726,758.3234,67,intermodal+rail+road
+station_1,Bahawalpur Railway Station,rail_station,station_13,Khanpur Railway Station,rail_station,0.0004,0.0114,2,intermodal
+station_1,Bahawalpur Railway Station,rail_station,station_14,Taftan,rail_station,17.7035,1566.8357,187,intermodal+rail+road
+station_1,Bahawalpur Railway Station,rail_station,station_15,Kotri Railway Station,rail_station,10.1616,994.7206,270,intermodal+rail+road
+station_1,Bahawalpur Railway Station,rail_station,station_16,Lahore,rail_station,5.7887,511.5639,67,intermodal+rail+road
+station_1,Bahawalpur Railway Station,rail_station,station_17,Larkana Railway Station,rail_station,8.8269,812.3577,124,intermodal+rail+road
+station_1,Bahawalpur Railway Station,rail_station,station_18,Mirpur Khas Railway Station,rail_station,10.9179,1055.19,272,intermodal+rail+road
+station_1,Bahawalpur Railway Station,rail_station,station_19,Multan Railway Station,rail_station,1.3498,126.1635,35,intermodal+road
+station_1,Bahawalpur Railway Station,rail_station,station_20,NawabShah Railway Station,rail_station,11.1772,1075.8833,273,intermodal+rail+road
+station_1,Bahawalpur Railway Station,rail_station,station_21,Railway Yard Karachi,rail_station,8.1027,829.4797,269,intermodal+road
+station_1,Bahawalpur Railway Station,rail_station,station_22,Peshawar Railway Station,rail_station,6.8919,657.723,255,intermodal+road
+station_1,Bahawalpur Railway Station,rail_station,station_23,Quetta,rail_station,7.6953,721.8258,124,intermodal+rail+road
+station_1,Bahawalpur Railway Station,rail_station,station_24,Rawalpindi Railway Station,rail_station,7.0809,694.7405,186,intermodal+rail+road
+station_1,Bahawalpur Railway Station,rail_station,station_25,Sahiwal Railway Station,rail_station,2.7804,270.9911,62,intermodal+road
+station_1,Bahawalpur Railway Station,rail_station,station_26,Sargodha Railway Station,rail_station,4.9527,452.2449,116,intermodal+road
+station_1,Bahawalpur Railway Station,rail_station,station_27,Sialkot,rail_station,5.7393,562.6997,144,intermodal+road
+station_1,Bahawalpur Railway Station,rail_station,station_28,Sibi Junction Railway Station,rail_station,6.214,603.3477,121,intermodal+road
+station_1,Bahawalpur Railway Station,rail_station,station_29,Sukkur Railway Station,rail_station,14.9066,1374.2523,273,intermodal+rail+road
+station_1,Bahawalpur Railway Station,rail_station,station_30,ZeroPoint Khokhrapar,rail_station,10.9174,1055.1742,272,intermodal+rail+road
+station_2,Bin Qasim Railway Station,rail_station,station_3,Karachi Cantt,rail_station,0.0161,0.4829,2,intermodal+rail
+station_2,Bin Qasim Railway Station,rail_station,station_4,Chaman,rail_station,8.1147,808.8381,263,intermodal+road
+station_2,Bin Qasim Railway Station,rail_station,station_5,Dera Gazi Khan Railway Station,rail_station,10.0392,985.2383,325,intermodal+rail+road
+station_2,Bin Qasim Railway Station,rail_station,station_6,Faislabad Railway Station,rail_station,10.6654,1140.7907,418,intermodal+road
+station_2,Bin Qasim Railway Station,rail_station,station_7,Gujranwala Railway Station,rail_station,12.2527,1314.511,463,intermodal+road
+station_2,Bin Qasim Railway Station,rail_station,station_8,Hyderabad Railway Station,rail_station,1.4819,166.828,76,intermodal+road
+station_2,Bin Qasim Railway Station,rail_station,station_9,Islamabad Railway Station,rail_station,13.1541,1434.7766,532,intermodal+road
+station_2,Bin Qasim Railway Station,rail_station,station_10,Jacobabad,rail_station,15.4052,1414.525,326,intermodal+rail+road
+station_2,Bin Qasim Railway Station,rail_station,station_11,Karachi City,rail_station,0.017,0.5106,2,intermodal
+station_2,Bin Qasim Railway Station,rail_station,station_12,Khanewal Railway Station,rail_station,16.5905,1582.4976,430,intermodal+rail+road
+station_2,Bin Qasim Railway Station,rail_station,station_13,Khanpur Railway Station,rail_station,8.1073,829.6171,269,intermodal+road
+station_2,Bin Qasim Railway Station,rail_station,station_14,Taftan,rail_station,16.9438,1497.3416,247,intermodal+rail+road
+station_2,Bin Qasim Railway Station,rail_station,station_15,Kotri Railway Station,rail_station,2.0856,166.0423,3,intermodal+rail
+station_2,Bin Qasim Railway Station,rail_station,station_16,Lahore,rail_station,13.5066,1335.7381,430,intermodal+rail+road
+station_2,Bin Qasim Railway Station,rail_station,station_17,Larkana Railway Station,rail_station,9.7028,922.5647,279,intermodal+rail+road
+station_2,Bin Qasim Railway Station,rail_station,station_18,Mirpur Khas Railway Station,rail_station,2.8419,226.5117,5,intermodal+rail
+station_2,Bin Qasim Railway Station,rail_station,station_19,Multan Railway Station,rail_station,9.1493,914.0971,322,intermodal+road
+station_2,Bin Qasim Railway Station,rail_station,station_20,NawabShah Railway Station,rail_station,3.1012,247.205,6,intermodal+rail
+station_2,Bin Qasim Railway Station,rail_station,station_21,Railway Yard Karachi,rail_station,0.0267,0.8014,2,intermodal
+station_2,Bin Qasim Railway Station,rail_station,station_22,Peshawar Railway Station,rail_station,13.3487,1353.2022,534,intermodal+road
+station_2,Bin Qasim Railway Station,rail_station,station_23,Quetta,rail_station,8.5713,832.0328,279,intermodal+rail+road
+station_2,Bin Qasim Railway Station,rail_station,station_24,Rawalpindi Railway Station,rail_station,13.2969,1446.2023,533,intermodal+rail+road
+station_2,Bin Qasim Railway Station,rail_station,station_25,Sahiwal Railway Station,rail_station,10.4983,1095.1653,425,intermodal+road
+station_2,Bin Qasim Railway Station,rail_station,station_26,Sargodha Railway Station,rail_station,11.1688,1203.7067,463,intermodal+road
+station_2,Bin Qasim Railway Station,rail_station,station_27,Sialkot,rail_station,12.2527,1314.5117,463,intermodal+road
+station_2,Bin Qasim Railway Station,rail_station,station_28,Sibi Junction Railway Station,rail_station,7.0899,713.5547,276,intermodal+road
+station_2,Bin Qasim Railway Station,rail_station,station_29,Sukkur Railway Station,rail_station,6.8306,545.574,6,intermodal+rail
+station_2,Bin Qasim Railway Station,rail_station,station_30,ZeroPoint Khokhrapar,rail_station,2.8414,226.4959,5,intermodal+rail
+station_3,Karachi Cantt,rail_station,station_4,Chaman,rail_station,8.0996,808.3858,263,intermodal+rail+road
+station_3,Karachi Cantt,rail_station,station_5,Dera Gazi Khan Railway Station,rail_station,10.0241,984.786,325,intermodal+rail+road
+station_3,Karachi Cantt,rail_station,station_6,Faislabad Railway Station,rail_station,10.6503,1140.3384,418,intermodal+rail+road
+station_3,Karachi Cantt,rail_station,station_7,Gujranwala Railway Station,rail_station,12.2376,1314.0587,463,intermodal+rail+road
+station_3,Karachi Cantt,rail_station,station_8,Hyderabad Railway Station,rail_station,1.4668,166.3757,76,intermodal+rail+road
+station_3,Karachi Cantt,rail_station,station_9,Islamabad Railway Station,rail_station,13.139,1434.3243,532,intermodal+rail+road
+station_3,Karachi Cantt,rail_station,station_10,Jacobabad,rail_station,15.3902,1414.0727,326,intermodal+rail+road
+station_3,Karachi Cantt,rail_station,station_11,Karachi City,rail_station,0.0019,0.0583,2,intermodal+rail
+station_3,Karachi Cantt,rail_station,station_12,Khanewal Railway Station,rail_station,16.5755,1582.0453,430,intermodal+rail+road
+station_3,Karachi Cantt,rail_station,station_13,Khanpur Railway Station,rail_station,8.0922,829.1648,269,intermodal+rail+road
+station_3,Karachi Cantt,rail_station,station_14,Taftan,rail_station,16.9288,1496.8893,247,intermodal+rail+road
+station_3,Karachi Cantt,rail_station,station_15,Kotri Railway Station,rail_station,2.0695,165.5594,1,rail
+station_3,Karachi Cantt,rail_station,station_16,Lahore,rail_station,13.4915,1335.2858,430,intermodal+rail+road
+station_3,Karachi Cantt,rail_station,station_17,Larkana Railway Station,rail_station,9.6877,922.1124,279,intermodal+rail+road
+station_3,Karachi Cantt,rail_station,station_18,Mirpur Khas Railway Station,rail_station,2.8258,226.0288,3,intermodal+rail
+station_3,Karachi Cantt,rail_station,station_19,Multan Railway Station,rail_station,9.1342,913.6448,322,intermodal+rail+road
+station_3,Karachi Cantt,rail_station,station_20,NawabShah Railway Station,rail_station,3.0851,246.7221,4,intermodal+rail
+station_3,Karachi Cantt,rail_station,station_21,Railway Yard Karachi,rail_station,0.0116,0.3491,2,intermodal+rail
+station_3,Karachi Cantt,rail_station,station_22,Peshawar Railway Station,rail_station,13.3336,1352.7499,534,intermodal+rail+road
+station_3,Karachi Cantt,rail_station,station_23,Quetta,rail_station,8.5562,831.5805,279,intermodal+rail+road
+station_3,Karachi Cantt,rail_station,station_24,Rawalpindi Railway Station,rail_station,13.2818,1445.75,533,intermodal+rail+road
+station_3,Karachi Cantt,rail_station,station_25,Sahiwal Railway Station,rail_station,10.4832,1094.713,425,intermodal+rail+road
+station_3,Karachi Cantt,rail_station,station_26,Sargodha Railway Station,rail_station,11.1537,1203.2544,463,intermodal+rail+road
+station_3,Karachi Cantt,rail_station,station_27,Sialkot,rail_station,12.2377,1314.0594,463,intermodal+rail+road
+station_3,Karachi Cantt,rail_station,station_28,Sibi Junction Railway Station,rail_station,7.0748,713.1024,276,intermodal+rail+road
+station_3,Karachi Cantt,rail_station,station_29,Sukkur Railway Station,rail_station,6.8145,545.0911,4,intermodal+rail
+station_3,Karachi Cantt,rail_station,station_30,ZeroPoint Khokhrapar,rail_station,2.8253,226.013,3,intermodal+rail
+station_4,Chaman,rail_station,station_5,Dera Gazi Khan Railway Station,rail_station,10.0213,972.9657,251,intermodal+rail+road
+station_4,Chaman,rail_station,station_6,Faislabad Railway Station,rail_station,11.4325,1150.2638,352,intermodal+road
+station_4,Chaman,rail_station,station_7,Gujranwala Railway Station,rail_station,13.0199,1310.1892,397,intermodal+road
+station_4,Chaman,rail_station,station_8,Hyderabad Railway Station,rail_station,8.4812,838.6047,304,intermodal+road
+station_4,Chaman,rail_station,station_9,Islamabad Railway Station,rail_station,13.9212,1424.2045,466,intermodal+road
+station_4,Chaman,rail_station,station_10,Jacobabad,rail_station,15.3874,1402.2524,252,intermodal+rail+road
+station_4,Chaman,rail_station,station_11,Karachi City,rail_station,8.1005,808.4135,263,intermodal+road
+station_4,Chaman,rail_station,station_12,Khanewal Railway Station,rail_station,17.0342,1570.225,288,intermodal+rail+road
+station_4,Chaman,rail_station,station_13,Khanpur Railway Station,rail_station,8.8744,878.3358,203,intermodal+road
+station_4,Chaman,rail_station,station_14,Taftan,rail_station,10.5776,861.6233,26,intermodal+rail+road
+station_4,Chaman,rail_station,station_15,Kotri Railway Station,rail_station,10.1691,973.9452,264,intermodal+rail+road
+station_4,Chaman,rail_station,station_16,Lahore,rail_station,13.9503,1323.4655,288,intermodal+rail+road
+station_4,Chaman,rail_station,station_17,Larkana Railway Station,rail_station,5.6596,495.5831,87,intermodal+rail+road
+station_4,Chaman,rail_station,station_18,Mirpur Khas Railway Station,rail_station,10.9254,1034.4146,266,intermodal+rail+road
+station_4,Chaman,rail_station,station_19,Multan Railway Station,rail_station,9.1314,901.8245,248,intermodal+road
+station_4,Chaman,rail_station,station_20,NawabShah Railway Station,rail_station,11.1846,1055.1079,267,intermodal+rail+road
+station_4,Chaman,rail_station,station_21,Railway Yard Karachi,rail_station,8.1102,808.7043,263,intermodal+road
+station_4,Chaman,rail_station,station_22,Peshawar Railway Station,rail_station,13.2939,1320.8001,406,intermodal+road
+station_4,Chaman,rail_station,station_23,Quetta,rail_station,4.528,405.0512,87,intermodal+rail+road
+station_4,Chaman,rail_station,station_24,Rawalpindi Railway Station,rail_station,14.0641,1435.6302,467,intermodal+rail+road
+station_4,Chaman,rail_station,station_25,Sahiwal Railway Station,rail_station,10.942,1082.8927,283,intermodal+road
+station_4,Chaman,rail_station,station_26,Sargodha Railway Station,rail_station,11.9359,1199.3849,397,intermodal+road
+station_4,Chaman,rail_station,station_27,Sialkot,rail_station,13.0199,1310.1899,397,intermodal+road
+station_4,Chaman,rail_station,station_28,Sibi Junction Railway Station,rail_station,3.0467,286.5731,84,intermodal+road
+station_4,Chaman,rail_station,station_29,Sukkur Railway Station,rail_station,14.9141,1353.4769,267,intermodal+rail+road
+station_4,Chaman,rail_station,station_30,ZeroPoint Khokhrapar,rail_station,10.9249,1034.3988,266,intermodal+rail+road
+station_5,Dera Gazi Khan Railway Station,rail_station,station_6,Faislabad Railway Station,rail_station,4.5117,382.4345,99,intermodal+rail+road
+station_5,Dera Gazi Khan Railway Station,rail_station,station_7,Gujranwala Railway Station,rail_station,6.0214,542.3599,108,intermodal+rail+road
+station_5,Dera Gazi Khan Railway Station,rail_station,station_8,Hyderabad Railway Station,rail_station,8.7701,835.3038,271,intermodal+rail+road
+station_5,Dera Gazi Khan Railway Station,rail_station,station_9,Islamabad Railway Station,rail_station,6.9227,662.6255,177,intermodal+rail+road
+station_5,Dera Gazi Khan Railway Station,rail_station,station_10,Jacobabad,rail_station,5.3676,429.3327,3,intermodal+rail
+station_5,Dera Gazi Khan Railway Station,rail_station,station_11,Karachi City,rail_station,10.025,984.8137,325,intermodal+rail+road
+station_5,Dera Gazi Khan Railway Station,rail_station,station_12,Khanewal Railway Station,rail_station,9.2373,773.8747,67,intermodal+rail+road
+station_5,Dera Gazi Khan Railway Station,rail_station,station_13,Khanpur Railway Station,rail_station,2.2398,197.3083,38,intermodal+rail+road
+station_5,Dera Gazi Khan Railway Station,rail_station,station_14,Taftan,rail_station,18.8504,1661.4692,235,intermodal+rail+road
+station_5,Dera Gazi Khan Railway Station,rail_station,station_15,Kotri Railway Station,rail_station,12.0936,1150.3454,326,intermodal+rail+road
+station_5,Dera Gazi Khan Railway Station,rail_station,station_16,Lahore,rail_station,6.1534,527.1152,67,intermodal+rail+road
+station_5,Dera Gazi Khan Railway Station,rail_station,station_17,Larkana Railway Station,rail_station,9.9738,906.9912,172,intermodal+rail+road
+station_5,Dera Gazi Khan Railway Station,rail_station,station_18,Mirpur Khas Railway Station,rail_station,12.8499,1210.8148,328,intermodal+rail+road
+station_5,Dera Gazi Khan Railway Station,rail_station,station_19,Multan Railway Station,rail_station,0.8899,71.1412,3,intermodal+rail
+station_5,Dera Gazi Khan Railway Station,rail_station,station_20,NawabShah Railway Station,rail_station,13.1091,1231.5081,329,intermodal+rail+road
+station_5,Dera Gazi Khan Railway Station,rail_station,station_21,Railway Yard Karachi,rail_station,10.0347,985.1045,325,intermodal+rail+road
+station_5,Dera Gazi Khan Railway Station,rail_station,station_22,Peshawar Railway Station,rail_station,6.8766,637.0337,247,intermodal+rail+road
+station_5,Dera Gazi Khan Railway Station,rail_station,station_23,Quetta,rail_station,8.8423,816.4593,172,intermodal+rail+road
+station_5,Dera Gazi Khan Railway Station,rail_station,station_24,Rawalpindi Railway Station,rail_station,7.0656,674.0512,178,intermodal+rail+road
+station_5,Dera Gazi Khan Railway Station,rail_station,station_25,Sahiwal Railway Station,rail_station,3.1451,286.5424,62,intermodal+rail+road
+station_5,Dera Gazi Khan Railway Station,rail_station,station_26,Sargodha Railway Station,rail_station,4.9374,431.5556,108,intermodal+rail+road
+station_5,Dera Gazi Khan Railway Station,rail_station,station_27,Sialkot,rail_station,6.0214,542.3606,108,intermodal+rail+road
+station_5,Dera Gazi Khan Railway Station,rail_station,station_28,Sibi Junction Railway Station,rail_station,7.3609,697.9812,169,intermodal+rail+road
+station_5,Dera Gazi Khan Railway Station,rail_station,station_29,Sukkur Railway Station,rail_station,16.8386,1529.8771,329,intermodal+rail+road
+station_5,Dera Gazi Khan Railway Station,rail_station,station_30,ZeroPoint Khokhrapar,rail_station,12.8494,1210.799,328,intermodal+rail+road
+station_6,Faislabad Railway Station,rail_station,station_7,Gujranwala Railway Station,rail_station,2.2824,219.8466,60,intermodal+road
+station_6,Faislabad Railway Station,rail_station,station_8,Hyderabad Railway Station,rail_station,9.3963,990.8562,364,intermodal+road
+station_6,Faislabad Railway Station,rail_station,station_9,Islamabad Railway Station,rail_station,3.1838,340.1122,129,intermodal+road
+station_6,Faislabad Railway Station,rail_station,station_10,Jacobabad,rail_station,9.8778,811.7212,100,intermodal+rail+road
+station_6,Faislabad Railway Station,rail_station,station_11,Karachi City,rail_station,10.6512,1140.3661,418,intermodal+road
+station_6,Faislabad Railway Station,rail_station,station_12,Khanewal Railway Station,rail_station,7.664,609.6602,71,intermodal+rail+road
+station_6,Faislabad Railway Station,rail_station,station_13,Khanpur Railway Station,rail_station,4.3162,392.2412,126,intermodal+road
+station_6,Faislabad Railway Station,rail_station,station_14,Taftan,rail_station,20.2617,1838.7673,336,intermodal+rail+road
+station_6,Faislabad Railway Station,rail_station,station_15,Kotri Railway Station,rail_station,12.7198,1305.8978,419,intermodal+rail+road
+station_6,Faislabad Railway Station,rail_station,station_16,Lahore,rail_station,4.58,362.9007,71,intermodal+rail+road
+station_6,Faislabad Railway Station,rail_station,station_17,Larkana Railway Station,rail_station,11.385,1084.2893,273,intermodal+rail+road
+station_6,Faislabad Railway Station,rail_station,station_18,Mirpur Khas Railway Station,rail_station,13.4761,1366.3672,421,intermodal+rail+road
+station_6,Faislabad Railway Station,rail_station,station_19,Multan Railway Station,rail_station,3.6218,311.2933,96,intermodal+road
+station_6,Faislabad Railway Station,rail_station,station_20,NawabShah Railway Station,rail_station,13.7353,1387.0605,422,intermodal+rail+road
+station_6,Faislabad Railway Station,rail_station,station_21,Railway Yard Karachi,rail_station,10.6609,1140.6569,418,intermodal+road
+station_6,Faislabad Railway Station,rail_station,station_22,Peshawar Railway Station,rail_station,4.52,476.8297,227,intermodal+road
+station_6,Faislabad Railway Station,rail_station,station_23,Quetta,rail_station,10.2535,993.7574,273,intermodal+rail+road
+station_6,Faislabad Railway Station,rail_station,station_24,Rawalpindi Railway Station,rail_station,3.3266,351.5379,130,intermodal+rail+road
+station_6,Faislabad Railway Station,rail_station,station_25,Sahiwal Railway Station,rail_station,1.5717,122.3279,66,intermodal+road
+station_6,Faislabad Railway Station,rail_station,station_26,Sargodha Railway Station,rail_station,1.1984,109.0423,60,intermodal+road
+station_6,Faislabad Railway Station,rail_station,station_27,Sialkot,rail_station,2.2824,219.8473,60,intermodal+road
+station_6,Faislabad Railway Station,rail_station,station_28,Sibi Junction Railway Station,rail_station,8.7721,875.2793,270,intermodal+road
+station_6,Faislabad Railway Station,rail_station,station_29,Sukkur Railway Station,rail_station,17.4648,1685.4295,422,intermodal+rail+road
+station_6,Faislabad Railway Station,rail_station,station_30,ZeroPoint Khokhrapar,rail_station,13.4756,1366.3514,421,intermodal+rail+road
+station_7,Gujranwala Railway Station,rail_station,station_8,Hyderabad Railway Station,rail_station,10.9836,1164.5765,409,intermodal+road
+station_7,Gujranwala Railway Station,rail_station,station_9,Islamabad Railway Station,rail_station,3.5345,357.7217,123,intermodal+road
+station_7,Gujranwala Railway Station,rail_station,station_10,Jacobabad,rail_station,11.3874,971.6466,109,intermodal+rail+road
+station_7,Gujranwala Railway Station,rail_station,station_11,Karachi City,rail_station,12.2386,1314.0864,463,intermodal+road
+station_7,Gujranwala Railway Station,rail_station,station_12,Khanewal Railway Station,rail_station,9.1015,781.2696,95,intermodal+rail+road
+station_7,Gujranwala Railway Station,rail_station,station_13,Khanpur Railway Station,rail_station,5.7394,562.7026,144,intermodal+road
+station_7,Gujranwala Railway Station,rail_station,station_14,Taftan,rail_station,21.849,1998.6927,381,intermodal+rail+road
+station_7,Gujranwala Railway Station,rail_station,station_15,Kotri Railway Station,rail_station,14.3071,1479.6181,464,intermodal+rail+road
+station_7,Gujranwala Railway Station,rail_station,station_16,Lahore,rail_station,6.0176,534.5101,95,intermodal+rail+road
+station_7,Gujranwala Railway Station,rail_station,station_17,Larkana Railway Station,rail_station,12.9724,1244.2147,318,intermodal+rail+road
+station_7,Gujranwala Railway Station,rail_station,station_18,Mirpur Khas Railway Station,rail_station,15.0635,1540.0875,466,intermodal+rail+road
+station_7,Gujranwala Railway Station,rail_station,station_19,Multan Railway Station,rail_station,5.1315,471.2187,105,intermodal+road
+station_7,Gujranwala Railway Station,rail_station,station_20,NawabShah Railway Station,rail_station,15.3227,1560.7808,467,intermodal+rail+road
+station_7,Gujranwala Railway Station,rail_station,station_21,Railway Yard Karachi,rail_station,12.2483,1314.3772,463,intermodal+road
+station_7,Gujranwala Railway Station,rail_station,station_22,Peshawar Railway Station,rail_station,4.8707,494.4392,221,intermodal+road
+station_7,Gujranwala Railway Station,rail_station,station_23,Quetta,rail_station,11.8409,1153.6828,318,intermodal+rail+road
+station_7,Gujranwala Railway Station,rail_station,station_24,Rawalpindi Railway Station,rail_station,3.6773,369.1474,124,intermodal+rail+road
+station_7,Gujranwala Railway Station,rail_station,station_25,Sahiwal Railway Station,rail_station,3.0093,293.9373,90,intermodal+road
+station_7,Gujranwala Railway Station,rail_station,station_26,Sargodha Railway Station,rail_station,1.9775,196.9751,49,intermodal+road
+station_7,Gujranwala Railway Station,rail_station,station_27,Sialkot,rail_station,0.0005,0.0163,2,intermodal
+station_7,Gujranwala Railway Station,rail_station,station_28,Sibi Junction Railway Station,rail_station,10.3595,1035.2047,315,intermodal+road
+station_7,Gujranwala Railway Station,rail_station,station_29,Sukkur Railway Station,rail_station,19.0521,1859.1498,467,intermodal+rail+road
+station_7,Gujranwala Railway Station,rail_station,station_30,ZeroPoint Khokhrapar,rail_station,15.0629,1540.0717,466,intermodal+rail+road
+station_8,Hyderabad Railway Station,rail_station,station_9,Islamabad Railway Station,rail_station,11.885,1284.8421,478,intermodal+road
+station_8,Hyderabad Railway Station,rail_station,station_10,Jacobabad,rail_station,14.1361,1264.5905,272,intermodal+rail+road
+station_8,Hyderabad Railway Station,rail_station,station_11,Karachi City,rail_station,1.4677,166.4034,76,intermodal+road
+station_8,Hyderabad Railway Station,rail_station,station_12,Khanewal Railway Station,rail_station,15.3214,1432.5631,376,intermodal+rail+road
+station_8,Hyderabad Railway Station,rail_station,station_13,Khanpur Railway Station,rail_station,6.8382,679.6826,215,intermodal+road
+station_8,Hyderabad Railway Station,rail_station,station_14,Taftan,rail_station,17.3104,1527.1082,288,intermodal+rail+road
+station_8,Hyderabad Railway Station,rail_station,station_15,Kotri Railway Station,rail_station,3.5363,331.9351,77,intermodal+rail+road
+station_8,Hyderabad Railway Station,rail_station,station_16,Lahore,rail_station,12.2375,1185.8036,376,intermodal+rail+road
+station_8,Hyderabad Railway Station,rail_station,station_17,Larkana Railway Station,rail_station,8.4337,772.6302,225,intermodal+rail+road
+station_8,Hyderabad Railway Station,rail_station,station_18,Mirpur Khas Railway Station,rail_station,4.2926,392.4045,79,intermodal+rail+road
+station_8,Hyderabad Railway Station,rail_station,station_19,Multan Railway Station,rail_station,7.8802,764.1626,268,intermodal+road
+station_8,Hyderabad Railway Station,rail_station,station_20,NawabShah Railway Station,rail_station,4.5518,413.0978,80,intermodal+rail+road
+station_8,Hyderabad Railway Station,rail_station,station_21,Railway Yard Karachi,rail_station,1.4774,166.6942,76,intermodal+road
+station_8,Hyderabad Railway Station,rail_station,station_22,Peshawar Railway Station,rail_station,12.0796,1203.2677,480,intermodal+road
+station_8,Hyderabad Railway Station,rail_station,station_23,Quetta,rail_station,7.3022,682.0983,225,intermodal+rail+road
+station_8,Hyderabad Railway Station,rail_station,station_24,Rawalpindi Railway Station,rail_station,12.0278,1296.2678,479,intermodal+rail+road
+station_8,Hyderabad Railway Station,rail_station,station_25,Sahiwal Railway Station,rail_station,9.2292,945.2308,371,intermodal+road
+station_8,Hyderabad Railway Station,rail_station,station_26,Sargodha Railway Station,rail_station,9.8997,1053.7722,409,intermodal+road
+station_8,Hyderabad Railway Station,rail_station,station_27,Sialkot,rail_station,10.9836,1164.5772,409,intermodal+road
+station_8,Hyderabad Railway Station,rail_station,station_28,Sibi Junction Railway Station,rail_station,5.8208,563.6202,222,intermodal+road
+station_8,Hyderabad Railway Station,rail_station,station_29,Sukkur Railway Station,rail_station,8.2813,711.4668,80,intermodal+rail+road
+station_8,Hyderabad Railway Station,rail_station,station_30,ZeroPoint Khokhrapar,rail_station,4.2921,392.3887,79,intermodal+rail+road
+station_9,Islamabad Railway Station,rail_station,station_10,Jacobabad,rail_station,12.2888,1091.9122,178,intermodal+rail+road
+station_9,Islamabad Railway Station,rail_station,station_11,Karachi City,rail_station,13.1399,1434.352,532,intermodal+road
+station_9,Islamabad Railway Station,rail_station,station_12,Khanewal Railway Station,rail_station,10.2965,910.7346,181,intermodal+rail+road
+station_9,Islamabad Railway Station,rail_station,station_13,Khanpur Railway Station,rail_station,6.9381,683.3184,185,intermodal+road
+station_9,Islamabad Railway Station,rail_station,station_14,Taftan,rail_station,22.7504,2112.708,450,intermodal+rail+road
+station_9,Islamabad Railway Station,rail_station,station_15,Kotri Railway Station,rail_station,15.2085,1599.8837,533,intermodal+rail+road
+station_9,Islamabad Railway Station,rail_station,station_16,Lahore,rail_station,7.2126,663.9751,181,intermodal+rail+road
+station_9,Islamabad Railway Station,rail_station,station_17,Larkana Railway Station,rail_station,13.8737,1358.23,387,intermodal+rail+road
+station_9,Islamabad Railway Station,rail_station,station_18,Mirpur Khas Railway Station,rail_station,15.9648,1660.3531,535,intermodal+rail+road
+station_9,Islamabad Railway Station,rail_station,station_19,Multan Railway Station,rail_station,6.0329,591.4843,174,intermodal+road
+station_9,Islamabad Railway Station,rail_station,station_20,NawabShah Railway Station,rail_station,16.2241,1681.0464,536,intermodal+rail+road
+station_9,Islamabad Railway Station,rail_station,station_21,Railway Yard Karachi,rail_station,13.1496,1434.6428,532,intermodal+road
+station_9,Islamabad Railway Station,rail_station,station_22,Peshawar Railway Station,rail_station,1.6933,163.2149,126,intermodal+road
+station_9,Islamabad Railway Station,rail_station,station_23,Quetta,rail_station,12.7422,1267.6981,387,intermodal+rail+road
+station_9,Islamabad Railway Station,rail_station,station_24,Rawalpindi Railway Station,rail_station,0.143,11.4307,3,intermodal+rail
+station_9,Islamabad Railway Station,rail_station,station_25,Sahiwal Railway Station,rail_station,4.2043,423.4023,176,intermodal+road
+station_9,Islamabad Railway Station,rail_station,station_26,Sargodha Railway Station,rail_station,2.4565,255.9534,89,intermodal+road
+station_9,Islamabad Railway Station,rail_station,station_27,Sialkot,rail_station,3.5345,357.7224,123,intermodal+road
+station_9,Islamabad Railway Station,rail_station,station_28,Sibi Junction Railway Station,rail_station,11.2608,1149.22,384,intermodal+road
+station_9,Islamabad Railway Station,rail_station,station_29,Sukkur Railway Station,rail_station,19.9535,1979.4154,536,intermodal+rail+road
+station_9,Islamabad Railway Station,rail_station,station_30,ZeroPoint Khokhrapar,rail_station,15.9643,1660.3373,535,intermodal+rail+road
+station_10,Jacobabad,rail_station,station_11,Karachi City,rail_station,15.3911,1414.1004,326,intermodal+rail+road
+station_10,Jacobabad,rail_station,station_12,Khanewal Railway Station,rail_station,14.6034,1203.1614,68,intermodal+rail+road
+station_10,Jacobabad,rail_station,station_13,Khanpur Railway Station,rail_station,7.6059,626.595,39,intermodal+rail+road
+station_10,Jacobabad,rail_station,station_14,Taftan,rail_station,24.2165,2090.7559,236,intermodal+rail+road
+station_10,Jacobabad,rail_station,station_15,Kotri Railway Station,rail_station,17.4597,1579.6321,327,intermodal+rail+road
+station_10,Jacobabad,rail_station,station_16,Lahore,rail_station,11.5195,956.4019,68,intermodal+rail+road
+station_10,Jacobabad,rail_station,station_17,Larkana Railway Station,rail_station,15.3399,1336.2779,173,intermodal+rail+road
+station_10,Jacobabad,rail_station,station_18,Mirpur Khas Railway Station,rail_station,18.216,1640.1015,329,intermodal+rail+road
+station_10,Jacobabad,rail_station,station_19,Multan Railway Station,rail_station,6.2559,500.4279,4,intermodal+rail
+station_10,Jacobabad,rail_station,station_20,NawabShah Railway Station,rail_station,18.4752,1660.7948,330,intermodal+rail+road
+station_10,Jacobabad,rail_station,station_21,Railway Yard Karachi,rail_station,15.4008,1414.3912,326,intermodal+rail+road
+station_10,Jacobabad,rail_station,station_22,Peshawar Railway Station,rail_station,12.2427,1066.3204,248,intermodal+rail+road
+station_10,Jacobabad,rail_station,station_23,Quetta,rail_station,14.2084,1245.746,173,intermodal+rail+road
+station_10,Jacobabad,rail_station,station_24,Rawalpindi Railway Station,rail_station,12.4316,1103.3379,179,intermodal+rail+road
+station_10,Jacobabad,rail_station,station_25,Sahiwal Railway Station,rail_station,8.5112,715.8291,63,intermodal+rail+road
+station_10,Jacobabad,rail_station,station_26,Sargodha Railway Station,rail_station,10.3035,860.8423,109,intermodal+rail+road
+station_10,Jacobabad,rail_station,station_27,Sialkot,rail_station,11.3875,971.6473,109,intermodal+rail+road
+station_10,Jacobabad,rail_station,station_28,Sibi Junction Railway Station,rail_station,12.727,1127.2679,170,intermodal+rail+road
+station_10,Jacobabad,rail_station,station_29,Sukkur Railway Station,rail_station,22.2046,1959.1638,330,intermodal+rail+road
+station_10,Jacobabad,rail_station,station_30,ZeroPoint Khokhrapar,rail_station,18.2155,1640.0857,329,intermodal+rail+road
+station_11,Karachi City,rail_station,station_12,Khanewal Railway Station,rail_station,16.5764,1582.073,430,intermodal+rail+road
+station_11,Karachi City,rail_station,station_13,Khanpur Railway Station,rail_station,8.0932,829.1925,269,intermodal+road
+station_11,Karachi City,rail_station,station_14,Taftan,rail_station,16.9297,1496.917,247,intermodal+rail+road
+station_11,Karachi City,rail_station,station_15,Kotri Railway Station,rail_station,2.0714,165.6177,3,intermodal+rail
+station_11,Karachi City,rail_station,station_16,Lahore,rail_station,13.4925,1335.3135,430,intermodal+rail+road
+station_11,Karachi City,rail_station,station_17,Larkana Railway Station,rail_station,9.6887,922.1401,279,intermodal+rail+road
+station_11,Karachi City,rail_station,station_18,Mirpur Khas Railway Station,rail_station,2.8278,226.0871,5,intermodal+rail
+station_11,Karachi City,rail_station,station_19,Multan Railway Station,rail_station,9.1351,913.6725,322,intermodal+road
+station_11,Karachi City,rail_station,station_20,NawabShah Railway Station,rail_station,3.087,246.7804,6,intermodal+rail
+station_11,Karachi City,rail_station,station_21,Railway Yard Karachi,rail_station,0.0126,0.3768,2,intermodal
+station_11,Karachi City,rail_station,station_22,Peshawar Railway Station,rail_station,13.3345,1352.7776,534,intermodal+road
+station_11,Karachi City,rail_station,station_23,Quetta,rail_station,8.5571,831.6082,279,intermodal+rail+road
+station_11,Karachi City,rail_station,station_24,Rawalpindi Railway Station,rail_station,13.2828,1445.7777,533,intermodal+rail+road
+station_11,Karachi City,rail_station,station_25,Sahiwal Railway Station,rail_station,10.4841,1094.7407,425,intermodal+road
+station_11,Karachi City,rail_station,station_26,Sargodha Railway Station,rail_station,11.1546,1203.2821,463,intermodal+road
+station_11,Karachi City,rail_station,station_27,Sialkot,rail_station,12.2386,1314.0871,463,intermodal+road
+station_11,Karachi City,rail_station,station_28,Sibi Junction Railway Station,rail_station,7.0757,713.1301,276,intermodal+road
+station_11,Karachi City,rail_station,station_29,Sukkur Railway Station,rail_station,6.8164,545.1494,6,intermodal+rail
+station_11,Karachi City,rail_station,station_30,ZeroPoint Khokhrapar,rail_station,2.8272,226.0713,5,intermodal+rail
+station_12,Khanewal Railway Station,rail_station,station_13,Khanpur Railway Station,rail_station,8.8727,758.327,67,intermodal+rail+road
+station_12,Khanewal Railway Station,rail_station,station_14,Taftan,rail_station,25.8634,2258.7285,272,intermodal+rail+road
+station_12,Khanewal Railway Station,rail_station,station_15,Kotri Railway Station,rail_station,18.6449,1747.6047,431,intermodal+rail+road
+station_12,Khanewal Railway Station,rail_station,station_16,Lahore,rail_station,3.9331,314.5487,4,intermodal+rail
+station_12,Khanewal Railway Station,rail_station,station_17,Larkana Railway Station,rail_station,16.9868,1504.2505,209,intermodal+rail+road
+station_12,Khanewal Railway Station,rail_station,station_18,Mirpur Khas Railway Station,rail_station,19.4013,1808.0741,433,intermodal+rail+road
+station_12,Khanewal Railway Station,rail_station,station_19,Multan Railway Station,rail_station,8.3475,702.7335,64,intermodal+rail+road
+station_12,Khanewal Railway Station,rail_station,station_20,NawabShah Railway Station,rail_station,19.6605,1828.7674,434,intermodal+rail+road
+station_12,Khanewal Railway Station,rail_station,station_21,Railway Yard Karachi,rail_station,16.5861,1582.3638,430,intermodal+rail+road
+station_12,Khanewal Railway Station,rail_station,station_22,Peshawar Railway Station,rail_station,11.6327,1047.4521,279,intermodal+rail+road
+station_12,Khanewal Railway Station,rail_station,station_23,Quetta,rail_station,15.8552,1413.7186,209,intermodal+rail+road
+station_12,Khanewal Railway Station,rail_station,station_24,Rawalpindi Railway Station,rail_station,10.4393,922.1603,182,intermodal+rail+road
+station_12,Khanewal Railway Station,rail_station,station_25,Sahiwal Railway Station,rail_station,6.0922,487.3323,5,intermodal+rail
+station_12,Khanewal Railway Station,rail_station,station_26,Sargodha Railway Station,rail_station,8.3112,679.6647,112,intermodal+rail+road
+station_12,Khanewal Railway Station,rail_station,station_27,Sialkot,rail_station,9.1015,781.2703,95,intermodal+rail+road
+station_12,Khanewal Railway Station,rail_station,station_28,Sibi Junction Railway Station,rail_station,14.3739,1295.2405,206,intermodal+rail+road
+station_12,Khanewal Railway Station,rail_station,station_29,Sukkur Railway Station,rail_station,23.3899,2127.1364,434,intermodal+rail+road
+station_12,Khanewal Railway Station,rail_station,station_30,ZeroPoint Khokhrapar,rail_station,19.4007,1808.0583,433,intermodal+rail+road
+station_13,Khanpur Railway Station,rail_station,station_14,Taftan,rail_station,17.7036,1566.8393,187,intermodal+rail+road
+station_13,Khanpur Railway Station,rail_station,station_15,Kotri Railway Station,rail_station,10.1617,994.7242,270,intermodal+rail+road
+station_13,Khanpur Railway Station,rail_station,station_16,Lahore,rail_station,5.7888,511.5675,67,intermodal+rail+road
+station_13,Khanpur Railway Station,rail_station,station_17,Larkana Railway Station,rail_station,8.827,812.3613,124,intermodal+rail+road
+station_13,Khanpur Railway Station,rail_station,station_18,Mirpur Khas Railway Station,rail_station,10.918,1055.1936,272,intermodal+rail+road
+station_13,Khanpur Railway Station,rail_station,station_19,Multan Railway Station,rail_station,1.3499,126.1671,35,intermodal+road
+station_13,Khanpur Railway Station,rail_station,station_20,NawabShah Railway Station,rail_station,11.1773,1075.8869,273,intermodal+rail+road
+station_13,Khanpur Railway Station,rail_station,station_21,Railway Yard Karachi,rail_station,8.1028,829.4833,269,intermodal+road
+station_13,Khanpur Railway Station,rail_station,station_22,Peshawar Railway Station,rail_station,6.892,657.7266,255,intermodal+road
+station_13,Khanpur Railway Station,rail_station,station_23,Quetta,rail_station,7.6955,721.8294,124,intermodal+rail+road
+station_13,Khanpur Railway Station,rail_station,station_24,Rawalpindi Railway Station,rail_station,7.081,694.7441,186,intermodal+rail+road
+station_13,Khanpur Railway Station,rail_station,station_25,Sahiwal Railway Station,rail_station,2.7805,270.9947,62,intermodal+road
+station_13,Khanpur Railway Station,rail_station,station_26,Sargodha Railway Station,rail_station,4.9528,452.2485,116,intermodal+road
+station_13,Khanpur Railway Station,rail_station,station_27,Sialkot,rail_station,5.7394,562.7033,144,intermodal+road
+station_13,Khanpur Railway Station,rail_station,station_28,Sibi Junction Railway Station,rail_station,6.2141,603.3513,121,intermodal+road
+station_13,Khanpur Railway Station,rail_station,station_29,Sukkur Railway Station,rail_station,14.9067,1374.2559,273,intermodal+rail+road
+station_13,Khanpur Railway Station,rail_station,station_30,ZeroPoint Khokhrapar,rail_station,10.9175,1055.1778,272,intermodal+rail+road
+station_14,Taftan,rail_station,station_15,Kotri Railway Station,rail_station,18.9983,1662.4487,248,intermodal+rail+road
+station_14,Taftan,rail_station,station_16,Lahore,rail_station,22.7795,2011.969,272,intermodal+rail+road
+station_14,Taftan,rail_station,station_17,Larkana Railway Station,rail_station,14.4887,1184.0866,71,intermodal+rail+road
+station_14,Taftan,rail_station,station_18,Mirpur Khas Railway Station,rail_station,19.7546,1722.9181,250,intermodal+rail+road
+station_14,Taftan,rail_station,station_19,Multan Railway Station,rail_station,17.9606,1590.328,232,intermodal+rail+road
+station_14,Taftan,rail_station,station_20,NawabShah Railway Station,rail_station,20.0138,1743.6114,251,intermodal+rail+road
+station_14,Taftan,rail_station,station_21,Railway Yard Karachi,rail_station,16.9394,1497.2078,247,intermodal+rail+road
+station_14,Taftan,rail_station,station_22,Peshawar Railway Station,rail_station,22.1231,2009.3036,390,intermodal+rail+road
+station_14,Taftan,rail_station,station_23,Quetta,rail_station,13.3572,1093.5547,71,intermodal+rail+road
+station_14,Taftan,rail_station,station_24,Rawalpindi Railway Station,rail_station,22.8932,2124.1337,451,intermodal+rail+road
+station_14,Taftan,rail_station,station_25,Sahiwal Railway Station,rail_station,19.7712,1771.3962,267,intermodal+rail+road
+station_14,Taftan,rail_station,station_26,Sargodha Railway Station,rail_station,20.7651,1887.8884,381,intermodal+rail+road
+station_14,Taftan,rail_station,station_27,Sialkot,rail_station,21.8491,1998.6934,381,intermodal+rail+road
+station_14,Taftan,rail_station,station_28,Sibi Junction Railway Station,rail_station,11.8758,975.0766,68,intermodal+rail+road
+station_14,Taftan,rail_station,station_29,Sukkur Railway Station,rail_station,23.7432,2041.9804,251,intermodal+rail+road
+station_14,Taftan,rail_station,station_30,ZeroPoint Khokhrapar,rail_station,19.7541,1722.9023,250,intermodal+rail+road
+station_15,Kotri Railway Station,rail_station,station_16,Lahore,rail_station,15.561,1500.8452,431,intermodal+rail+road
+station_15,Kotri Railway Station,rail_station,station_17,Larkana Railway Station,rail_station,11.7572,1087.6718,280,intermodal+rail+road
+station_15,Kotri Railway Station,rail_station,station_18,Mirpur Khas Railway Station,rail_station,0.7563,60.4694,2,intermodal+rail
+station_15,Kotri Railway Station,rail_station,station_19,Multan Railway Station,rail_station,11.2037,1079.2042,323,intermodal+rail+road
+station_15,Kotri Railway Station,rail_station,station_20,NawabShah Railway Station,rail_station,1.0156,81.1627,3,intermodal+rail
+station_15,Kotri Railway Station,rail_station,station_21,Railway Yard Karachi,rail_station,2.0811,165.9085,3,intermodal+rail
+station_15,Kotri Railway Station,rail_station,station_22,Peshawar Railway Station,rail_station,15.4031,1518.3093,535,intermodal+rail+road
+station_15,Kotri Railway Station,rail_station,station_23,Quetta,rail_station,10.6257,997.1399,280,intermodal+rail+road
+station_15,Kotri Railway Station,rail_station,station_24,Rawalpindi Railway Station,rail_station,15.3513,1611.3094,534,intermodal+rail+road
+station_15,Kotri Railway Station,rail_station,station_25,Sahiwal Railway Station,rail_station,12.5527,1260.2724,426,intermodal+rail+road
+station_15,Kotri Railway Station,rail_station,station_26,Sargodha Railway Station,rail_station,13.2232,1368.8138,464,intermodal+rail+road
+station_15,Kotri Railway Station,rail_station,station_27,Sialkot,rail_station,14.3071,1479.6188,464,intermodal+rail+road
+station_15,Kotri Railway Station,rail_station,station_28,Sibi Junction Railway Station,rail_station,9.1443,878.6618,277,intermodal+rail+road
+station_15,Kotri Railway Station,rail_station,station_29,Sukkur Railway Station,rail_station,4.745,379.5317,3,intermodal+rail
+station_15,Kotri Railway Station,rail_station,station_30,ZeroPoint Khokhrapar,rail_station,0.7558,60.4536,2,intermodal+rail
+station_16,Lahore,rail_station,station_17,Larkana Railway Station,rail_station,13.9028,1257.491,209,intermodal+rail+road
+station_16,Lahore,rail_station,station_18,Mirpur Khas Railway Station,rail_station,16.3173,1561.3146,433,intermodal+rail+road
+station_16,Lahore,rail_station,station_19,Multan Railway Station,rail_station,5.2635,455.974,64,intermodal+rail+road
+station_16,Lahore,rail_station,station_20,NawabShah Railway Station,rail_station,16.5766,1582.0079,434,intermodal+rail+road
+station_16,Lahore,rail_station,station_21,Railway Yard Karachi,rail_station,13.5021,1335.6043,430,intermodal+rail+road
+station_16,Lahore,rail_station,station_22,Peshawar Railway Station,rail_station,8.5488,800.6926,279,intermodal+rail+road
+station_16,Lahore,rail_station,station_23,Quetta,rail_station,12.7713,1166.9591,209,intermodal+rail+road
+station_16,Lahore,rail_station,station_24,Rawalpindi Railway Station,rail_station,7.3554,675.4008,182,intermodal+rail+road
+station_16,Lahore,rail_station,station_25,Sahiwal Railway Station,rail_station,3.0083,240.5728,5,intermodal+rail
+station_16,Lahore,rail_station,station_26,Sargodha Railway Station,rail_station,5.2272,432.9052,112,intermodal+rail+road
+station_16,Lahore,rail_station,station_27,Sialkot,rail_station,6.0176,534.5108,95,intermodal+rail+road
+station_16,Lahore,rail_station,station_28,Sibi Junction Railway Station,rail_station,11.2899,1048.481,206,intermodal+rail+road
+station_16,Lahore,rail_station,station_29,Sukkur Railway Station,rail_station,20.306,1880.3769,434,intermodal+rail+road
+station_16,Lahore,rail_station,station_30,ZeroPoint Khokhrapar,rail_station,16.3168,1561.2988,433,intermodal+rail+road
+station_17,Larkana Railway Station,rail_station,station_18,Mirpur Khas Railway Station,rail_station,12.5135,1148.1412,282,intermodal+rail+road
+station_17,Larkana Railway Station,rail_station,station_19,Multan Railway Station,rail_station,9.0839,835.85,169,intermodal+rail+road
+station_17,Larkana Railway Station,rail_station,station_20,NawabShah Railway Station,rail_station,12.7728,1168.8345,283,intermodal+rail+road
+station_17,Larkana Railway Station,rail_station,station_21,Railway Yard Karachi,rail_station,9.6983,922.4309,279,intermodal+rail+road
+station_17,Larkana Railway Station,rail_station,station_22,Peshawar Railway Station,rail_station,13.2464,1254.8256,327,intermodal+rail+road
+station_17,Larkana Railway Station,rail_station,station_23,Quetta,rail_station,4.0937,327.4713,4,intermodal+rail
+station_17,Larkana Railway Station,rail_station,station_24,Rawalpindi Railway Station,rail_station,14.0166,1369.6557,388,intermodal+rail+road
+station_17,Larkana Railway Station,rail_station,station_25,Sahiwal Railway Station,rail_station,10.8945,1016.9182,204,intermodal+rail+road
+station_17,Larkana Railway Station,rail_station,station_26,Sargodha Railway Station,rail_station,11.8884,1133.4104,318,intermodal+rail+road
+station_17,Larkana Railway Station,rail_station,station_27,Sialkot,rail_station,12.9724,1244.2154,318,intermodal+rail+road
+station_17,Larkana Railway Station,rail_station,station_28,Sibi Junction Railway Station,rail_station,2.6129,209.01,3,intermodal+rail
+station_17,Larkana Railway Station,rail_station,station_29,Sukkur Railway Station,rail_station,16.5022,1467.2035,283,intermodal+rail+road
+station_17,Larkana Railway Station,rail_station,station_30,ZeroPoint Khokhrapar,rail_station,12.513,1148.1254,282,intermodal+rail+road
+station_18,Mirpur Khas Railway Station,rail_station,station_19,Multan Railway Station,rail_station,11.96,1139.6736,325,intermodal+rail+road
+station_18,Mirpur Khas Railway Station,rail_station,station_20,NawabShah Railway Station,rail_station,0.2607,20.7375,3,intermodal+rail
+station_18,Mirpur Khas Railway Station,rail_station,station_21,Railway Yard Karachi,rail_station,2.8375,226.3779,5,intermodal+rail
+station_18,Mirpur Khas Railway Station,rail_station,station_22,Peshawar Railway Station,rail_station,16.1594,1578.7787,537,intermodal+rail+road
+station_18,Mirpur Khas Railway Station,rail_station,station_23,Quetta,rail_station,11.382,1057.6093,282,intermodal+rail+road
+station_18,Mirpur Khas Railway Station,rail_station,station_24,Rawalpindi Railway Station,rail_station,16.1077,1671.7788,536,intermodal+rail+road
+station_18,Mirpur Khas Railway Station,rail_station,station_25,Sahiwal Railway Station,rail_station,13.309,1320.7418,428,intermodal+rail+road
+station_18,Mirpur Khas Railway Station,rail_station,station_26,Sargodha Railway Station,rail_station,13.9795,1429.2832,466,intermodal+rail+road
+station_18,Mirpur Khas Railway Station,rail_station,station_27,Sialkot,rail_station,15.0635,1540.0882,466,intermodal+rail+road
+station_18,Mirpur Khas Railway Station,rail_station,station_28,Sibi Junction Railway Station,rail_station,9.9006,939.1312,279,intermodal+rail+road
+station_18,Mirpur Khas Railway Station,rail_station,station_29,Sukkur Railway Station,rail_station,5.5013,440.0011,5,intermodal+rail
+station_18,Mirpur Khas Railway Station,rail_station,station_30,ZeroPoint Khokhrapar,rail_station,0.0009,0.0284,2,intermodal
+station_19,Multan Railway Station,rail_station,station_20,NawabShah Railway Station,rail_station,12.2193,1160.3669,326,intermodal+rail+road
+station_19,Multan Railway Station,rail_station,station_21,Railway Yard Karachi,rail_station,9.1448,913.9633,322,intermodal+road
+station_19,Multan Railway Station,rail_station,station_22,Peshawar Railway Station,rail_station,5.9867,565.8925,244,intermodal+road
+station_19,Multan Railway Station,rail_station,station_23,Quetta,rail_station,7.9524,745.3181,169,intermodal+rail+road
+station_19,Multan Railway Station,rail_station,station_24,Rawalpindi Railway Station,rail_station,6.1757,602.91,175,intermodal+rail+road
+station_19,Multan Railway Station,rail_station,station_25,Sahiwal Railway Station,rail_station,2.2552,215.4012,59,intermodal+road
+station_19,Multan Railway Station,rail_station,station_26,Sargodha Railway Station,rail_station,4.0475,360.4144,105,intermodal+road
+station_19,Multan Railway Station,rail_station,station_27,Sialkot,rail_station,5.1315,471.2194,105,intermodal+road
+station_19,Multan Railway Station,rail_station,station_28,Sibi Junction Railway Station,rail_station,6.471,626.84,166,intermodal+road
+station_19,Multan Railway Station,rail_station,station_29,Sukkur Railway Station,rail_station,15.9487,1458.7359,326,intermodal+rail+road
+station_19,Multan Railway Station,rail_station,station_30,ZeroPoint Khokhrapar,rail_station,11.9595,1139.6578,325,intermodal+rail+road
+station_20,NawabShah Railway Station,rail_station,station_21,Railway Yard Karachi,rail_station,3.0967,247.0712,6,intermodal+rail
+station_20,NawabShah Railway Station,rail_station,station_22,Peshawar Railway Station,rail_station,16.4187,1599.472,538,intermodal+rail+road
+station_20,NawabShah Railway Station,rail_station,station_23,Quetta,rail_station,11.6413,1078.3026,283,intermodal+rail+road
+station_20,NawabShah Railway Station,rail_station,station_24,Rawalpindi Railway Station,rail_station,16.3669,1692.4721,537,intermodal+rail+road
+station_20,NawabShah Railway Station,rail_station,station_25,Sahiwal Railway Station,rail_station,13.5683,1341.4351,429,intermodal+rail+road
+station_20,NawabShah Railway Station,rail_station,station_26,Sargodha Railway Station,rail_station,14.2387,1449.9765,467,intermodal+rail+road
+station_20,NawabShah Railway Station,rail_station,station_27,Sialkot,rail_station,15.3227,1560.7815,467,intermodal+rail+road
+station_20,NawabShah Railway Station,rail_station,station_28,Sibi Junction Railway Station,rail_station,10.1599,959.8245,280,intermodal+rail+road
+station_20,NawabShah Railway Station,rail_station,station_29,Sukkur Railway Station,rail_station,5.7606,460.6944,6,intermodal+rail
+station_20,NawabShah Railway Station,rail_station,station_30,ZeroPoint Khokhrapar,rail_station,0.2602,20.7217,3,intermodal+rail
+station_21,Railway Yard Karachi,rail_station,station_22,Peshawar Railway Station,rail_station,13.3442,1353.0684,534,intermodal+road
+station_21,Railway Yard Karachi,rail_station,station_23,Quetta,rail_station,8.5668,831.899,279,intermodal+rail+road
+station_21,Railway Yard Karachi,rail_station,station_24,Rawalpindi Railway Station,rail_station,13.2925,1446.0685,533,intermodal+rail+road
+station_21,Railway Yard Karachi,rail_station,station_25,Sahiwal Railway Station,rail_station,10.4938,1095.0315,425,intermodal+road
+station_21,Railway Yard Karachi,rail_station,station_26,Sargodha Railway Station,rail_station,11.1643,1203.5729,463,intermodal+road
+station_21,Railway Yard Karachi,rail_station,station_27,Sialkot,rail_station,12.2483,1314.3779,463,intermodal+road
+station_21,Railway Yard Karachi,rail_station,station_28,Sibi Junction Railway Station,rail_station,7.0854,713.4209,276,intermodal+road
+station_21,Railway Yard Karachi,rail_station,station_29,Sukkur Railway Station,rail_station,6.8261,545.4402,6,intermodal+rail
+station_21,Railway Yard Karachi,rail_station,station_30,ZeroPoint Khokhrapar,rail_station,2.8369,226.3621,5,intermodal+rail
+station_22,Peshawar Railway Station,rail_station,station_23,Quetta,rail_station,12.1149,1164.2937,327,intermodal+rail+road
+station_22,Peshawar Railway Station,rail_station,station_24,Rawalpindi Railway Station,rail_station,1.8361,174.6406,127,intermodal+rail+road
+station_22,Peshawar Railway Station,rail_station,station_25,Sahiwal Railway Station,rail_station,5.5405,560.1198,274,intermodal+road
+station_22,Peshawar Railway Station,rail_station,station_26,Sargodha Railway Station,rail_station,3.7928,392.6709,187,intermodal+road
+station_22,Peshawar Railway Station,rail_station,station_27,Sialkot,rail_station,4.8708,494.4399,221,intermodal+road
+station_22,Peshawar Railway Station,rail_station,station_28,Sibi Junction Railway Station,rail_station,10.6335,1045.8156,324,intermodal+road
+station_22,Peshawar Railway Station,rail_station,station_29,Sukkur Railway Station,rail_station,20.1481,1897.841,538,intermodal+rail+road
+station_22,Peshawar Railway Station,rail_station,station_30,ZeroPoint Khokhrapar,rail_station,16.1589,1578.7629,537,intermodal+rail+road
+station_23,Quetta,rail_station,station_24,Rawalpindi Railway Station,rail_station,12.8851,1279.1238,388,intermodal+rail+road
+station_23,Quetta,rail_station,station_25,Sahiwal Railway Station,rail_station,9.763,926.3863,204,intermodal+rail+road
+station_23,Quetta,rail_station,station_26,Sargodha Railway Station,rail_station,10.7569,1042.8785,318,intermodal+rail+road
+station_23,Quetta,rail_station,station_27,Sialkot,rail_station,11.8409,1153.6835,318,intermodal+rail+road
+station_23,Quetta,rail_station,station_28,Sibi Junction Railway Station,rail_station,1.4814,118.4781,3,intermodal+rail
+station_23,Quetta,rail_station,station_29,Sukkur Railway Station,rail_station,15.3707,1376.6716,283,intermodal+rail+road
+station_23,Quetta,rail_station,station_30,ZeroPoint Khokhrapar,rail_station,11.3815,1057.5935,282,intermodal+rail+road
+station_24,Rawalpindi Railway Station,rail_station,station_25,Sahiwal Railway Station,rail_station,4.3471,434.828,177,intermodal+rail+road
+station_24,Rawalpindi Railway Station,rail_station,station_26,Sargodha Railway Station,rail_station,2.5994,267.3791,90,intermodal+rail+road
+station_24,Rawalpindi Railway Station,rail_station,station_27,Sialkot,rail_station,3.6774,369.1481,124,intermodal+rail+road
+station_24,Rawalpindi Railway Station,rail_station,station_28,Sibi Junction Railway Station,rail_station,11.4037,1160.6457,385,intermodal+rail+road
+station_24,Rawalpindi Railway Station,rail_station,station_29,Sukkur Railway Station,rail_station,20.0963,1990.8411,537,intermodal+rail+road
+station_24,Rawalpindi Railway Station,rail_station,station_30,ZeroPoint Khokhrapar,rail_station,16.1071,1671.763,536,intermodal+rail+road
+station_25,Sahiwal Railway Station,rail_station,station_26,Sargodha Railway Station,rail_station,2.2189,192.3324,107,intermodal+road
+station_25,Sahiwal Railway Station,rail_station,station_27,Sialkot,rail_station,3.0093,293.938,90,intermodal+road
+station_25,Sahiwal Railway Station,rail_station,station_28,Sibi Junction Railway Station,rail_station,8.2816,807.9082,201,intermodal+road
+station_25,Sahiwal Railway Station,rail_station,station_29,Sukkur Railway Station,rail_station,17.2977,1639.8041,429,intermodal+rail+road
+station_25,Sahiwal Railway Station,rail_station,station_30,ZeroPoint Khokhrapar,rail_station,13.3085,1320.726,428,intermodal+rail+road
+station_26,Sargodha Railway Station,rail_station,station_27,Sialkot,rail_station,1.9776,196.9758,49,intermodal+road
+station_26,Sargodha Railway Station,rail_station,station_28,Sibi Junction Railway Station,rail_station,9.2755,924.4004,315,intermodal+road
+station_26,Sargodha Railway Station,rail_station,station_29,Sukkur Railway Station,rail_station,17.9682,1748.3455,467,intermodal+rail+road
+station_26,Sargodha Railway Station,rail_station,station_30,ZeroPoint Khokhrapar,rail_station,13.979,1429.2674,466,intermodal+rail+road
+station_27,Sialkot,rail_station,station_28,Sibi Junction Railway Station,rail_station,10.3595,1035.2054,315,intermodal+road
+station_27,Sialkot,rail_station,station_29,Sukkur Railway Station,rail_station,19.0521,1859.1505,467,intermodal+rail+road
+station_27,Sialkot,rail_station,station_30,ZeroPoint Khokhrapar,rail_station,15.063,1540.0724,466,intermodal+rail+road
+station_28,Sibi Junction Railway Station,rail_station,station_29,Sukkur Railway Station,rail_station,13.8893,1258.1935,280,intermodal+rail+road
+station_28,Sibi Junction Railway Station,rail_station,station_30,ZeroPoint Khokhrapar,rail_station,9.9001,939.1154,279,intermodal+rail+road
+station_29,Sukkur Railway Station,rail_station,station_30,ZeroPoint Khokhrapar,rail_station,5.5008,439.9853,5,intermodal+rail

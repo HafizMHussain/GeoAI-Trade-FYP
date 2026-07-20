@@ -1,0 +1,31 @@
+
+==============================================================================
+  STEP 1 — LOAD INPUTS (DB-first, file fallback)
+==============================================================================
+Traceback (most recent call last):
+  File "D:\university\semester 7\fyp 2\pipelines\risk_engine.py", line 188, in get_db_engine
+    ok(f"[DB] Connected to {DB_NAME}")
+    ~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\university\semester 7\fyp 2\pipelines\risk_engine.py", line 170, in ok
+    print(f"    \u2713 {text}")
+    ~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2713' in position 4: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\university\semester 7\fyp 2\pipelines\risk_engine.py", line 302, in <module>
+    engine = get_db_engine()
+  File "D:\university\semester 7\fyp 2\pipelines\risk_engine.py", line 191, in get_db_engine
+    warn(f"[DB] Connection failed: {e}")
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\university\semester 7\fyp 2\pipelines\risk_engine.py", line 173, in warn
+    print(f"    \u26a0 {text}")
+    ~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u26a0' in position 4: character maps to <undefined>

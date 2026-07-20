@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash('d:/university/semester 7/fyp 2/.venv/Scripts/python.exe' -c ':*)",
+      "Bash(awk '{print $2}')",
+      "Bash(xargs kill *)",
+      "Bash(npm run *)"
+    ]
+  }
+}

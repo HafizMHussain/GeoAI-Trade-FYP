@@ -1,0 +1,11 @@
+Model Information:
+* title:	Train Freight Compartment
+* source:	https://sketchfab.com/3d-models/train-freight-compartment-2cd8d1032b53426a92abb64a71743aa6
+* author:	Prabhu Ram (https://sketchfab.com/virtualmakes)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Train Freight Compartment" (https://sketchfab.com/3d-models/train-freight-compartment-2cd8d1032b53426a92abb64a71743aa6) by Prabhu Ram (https://sketchfab.com/virtualmakes) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
