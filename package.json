@@ -3,9 +3,5 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "GeoAI Trade FYP - Vercel deployment (frontend + serverless mock API)",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.18.2"
-  }
+  "description": "GeoAI Trade FYP - Vercel deployment (frontend + serverless mock API)"
 }
